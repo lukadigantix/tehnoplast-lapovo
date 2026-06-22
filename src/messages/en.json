@@ -1,0 +1,574 @@
+{
+  "Home": {
+    "hero": {
+      "tagline": "We design. We manufacture. We install.",
+      "titleLead": "More than 25 years building",
+      "titleAccent": "quality.",
+      "subtitle": "We design, manufacture and install ALU and PVC joinery, pergolas, fences and steel structures — with modern CNC technology and European standards.",
+      "ctaPrimary": "View products",
+      "ctaSecondary": "Contact us"
+    },
+    "heroStats": [
+      { "value": 25, "suffix": "+", "label": "Years of experience" },
+      { "value": 2000, "suffix": "m²", "label": "Of production space" },
+      { "value": 5000, "suffix": "+", "label": "Completed projects" },
+      { "text": "Serbia & Europe", "label": "Projects realized" }
+    ],
+    "categoriesSection": {
+      "eyebrow": "Our range",
+      "title": "Our categories",
+      "subtitle": "A complete program of solutions — from joinery to steel structures, all from our own production.",
+      "cardCta": "Learn more"
+    },
+    "categoryCards": [
+      {
+        "title": "PVC & ALU Joinery",
+        "description": "The warmth of home and energy efficiency in every detail.",
+        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Sliding Systems"]
+      },
+      {
+        "title": "Pergolas & Glass Systems",
+        "description": "Perfect comfort and protection in every season.",
+        "subcategories": ["Bioclimatic Pergola TP 160", "Textile Pergola TP-TEXTILE", "Glass Systems for Terraces", "ZIP Screen Systems"]
+      },
+      {
+        "title": "Fences & Gates",
+        "description": "Modern solutions that ensure security, privacy and aesthetics.",
+        "subcategories": ["ALU Fences", "Steel Fences CNC Laser", "Sliding Gates CNC Laser + Automation"]
+      },
+      {
+        "title": "CNC Machining & Steel Structures",
+        "description": "Modern technology, precise fabrication, outstanding results.",
+        "subcategories": ["Metalwork & Steel Structures", "Fiber Laser Cutting", "Laser Welding", "CNC Sheet Bending"]
+      }
+    ],
+    "why": {
+      "eyebrow": "Our advantages",
+      "title": "Why Tehnoplast?",
+      "subtitle": "Precise. Reliable. Quality. — the principle we have worked by for more than two and a half decades.",
+      "items": [
+        { "title": "In-house production", "text": "Full quality control from raw material to finished product." },
+        { "title": "Custom design", "text": "3D design and technical solutions tailored to your needs." },
+        { "title": "Top-tier equipment", "text": "Modern CNC machines and fiber laser technology." },
+        { "title": "Professional installation", "text": "Fast, safe and expert installation on site." },
+        { "title": "Quality guarantee", "text": "European quality standards in every detail." },
+        { "title": "Fast support", "text": "We are here for you — before, during and after installation." }
+      ]
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "From idea to finished product",
+      "subtitle": "From first contact to installation — a clear process under one roof, with no subcontractors.",
+      "steps": [
+        { "title": "Idea & concept", "text": "We listen to your needs and define the concept, materials and direction of the solution together." },
+        { "title": "3D design", "text": "We build a precise 3D model and technical documentation before any production." },
+        { "title": "CNC preparation", "text": "We program the machines and prepare the material for precise cutting and machining." },
+        { "title": "Welding", "text": "We join the elements to the highest standards, with control of every weld." },
+        { "title": "Protection & painting", "text": "We powder-coat and protect the surfaces for durability and a flawless finish." },
+        { "title": "Transport & installation", "text": "We deliver safely and install expertly at your location, on time." }
+      ]
+    },
+    "references": {
+      "eyebrow": "References",
+      "count": "5000+",
+      "countLabel": "Completed projects",
+      "title": "Projects completed across Serbia and Europe",
+      "subtitle": "More than 5000 successfully completed projects — from private homes to industrial complexes.",
+      "locations": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Šabac", "Zlatibor", "Kopaonik", "Vrnjačka Banja"]
+    },
+    "ctaBanner": {
+      "title": "From idea to finished product.",
+      "subtitle": "Contact us today for a free consultation.",
+      "button": "Contact us"
+    },
+    "mainTitle": "Complete solution for the production and installation of PVC & ALU joinery",
+    "mainSubtitle": "Tehnoplast specializes in the design, production and installation of PVC and ALU joinery, providing quality solutions for homes and businesses across Europe.",
+    "heading2": "We deliver only successful projects",
+    "subheading2": "Our products feature in load-bearing structures and all types of fences, in both the industrial and private sectors.",
+    "stats": [
+      {
+        "title": "100+",
+        "description": "Employees",
+        "text": "A skilled team dedicated to innovation and outstanding results on every project."
+      },
+      {
+        "title": "30",
+        "description": "Years of experience",
+        "text": "Three decades of expertise, dedication and success in the industry."
+      },
+      {
+        "title": "1000+",
+        "description": "Projects",
+        "text": "Thousands of successfully completed projects, delivered with dedication and precision."
+      },
+      {
+        "title": "100%",
+        "description": "Satisfied clients",
+        "text": "Every client is our priority — trust, quality and long-term cooperation."
+      }
+    ],
+    "heading3": "Across Europe",
+    "subheading3": "We shape spaces across Europe, combining modern design, top-quality craftsmanship and premium materials. Our projects in Germany, France and Serbia reflect a commitment to detail, functionality and innovation, delivering solutions tailored to each client's specific needs.",
+    "proces": [
+      {
+        "category": "1. Office Contact",
+        "link": "",
+        "description": "Our approach optimizes communication, adapts to your business needs and aligns with your brand. By creating functional, aesthetically coherent solutions, we help you connect better with clients, increase productivity and strengthen your market presence.",
+        "items": [
+          {
+            "title": "Contact",
+            "list": ["+381 62 466 555", "info@tehnoplast.co.rs"]
+          },
+          {
+            "title": "Office",
+            "list": ["Kosovskih junaka 20, 34220 Lapovo, Serbia"]
+          }
+        ]
+      },
+      {
+        "category": "2. Measuring",
+        "link": "",
+        "description": "Precise measurement and expert consultation for perfectly tailored solutions.",
+        "items": [
+          {
+            "title": "Space planning",
+            "list": [
+              "Needs analysis and optimization of the working environment",
+              "Defining the key elements of the space",
+              "Understanding client requirements and business dynamics",
+              "Setting strategic goals for efficient organization"
+            ]
+          },
+          {
+            "title": "Design & consultation",
+            "list": [
+              "Creating a functional, aesthetically tailored interior",
+              "Optimizing communication channels and contact points",
+              "Developing modular, adaptable units"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "3. Quotation",
+        "link": "",
+        "description": "We focus on accuracy, flexibility and clear presentation to make understanding and decision-making easy.",
+        "items": [
+          {
+            "title": "Quote creation process",
+            "list": [
+              "Requirement analysis and definition of key parameters",
+              "Strategic shaping of the offer in line with business goals",
+              "Clearly structured details and technical specifications"
+            ]
+          },
+          {
+            "title": "Presentation & customization",
+            "list": [
+              "Visually attractive, professionally designed documentation",
+              "Transparency in prices, deadlines and terms of cooperation",
+              "Ability to adapt the offer to client needs"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "4. Joinery production",
+        "link": "",
+        "description": "Our production process guarantees durability, functionality and aesthetics, tailored to specific client requirements. We use quality materials and modern processing methods to deliver joinery that meets the highest standards.",
+        "items": [
+          {
+            "title": "Production process",
+            "list": [
+              "Adapting dimensions and technical specifications",
+              "Use of high-quality materials and precise processing",
+              "Durability testing and final finishing"
+            ]
+          },
+          {
+            "title": "Design & functionality",
+            "list": [
+              "Aesthetically coordinated details and modern opening systems",
+              "Optimized insulation and energy efficiency",
+              "Flexibility in colors, finishes and additional options"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "5. Transport & installation",
+        "link": "",
+        "description": "Our team ensures safe delivery and precise installation, respecting all technical standards and specific client requirements. Efficiency, attention to detail and minimal disruption guarantee fast, quality work.",
+        "items": [
+          {
+            "title": "Safe transport",
+            "list": [
+              "Careful packaging and protection of elements",
+              "Timely delivery to the desired location",
+              "Adherence to all logistics and safety protocols"
+            ]
+          },
+          {
+            "title": "Professional installation",
+            "list": [
+              "Precise leveling and fitting of the joinery",
+              "Ensuring optimal insulation and functionality",
+              "Final work and inspection before handover"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "O-nama": {
+    "about": {
+      "eyebrow": "About us",
+      "heroTitle": "25 years of precision, built into every detail.",
+      "storyLabel": "Our story",
+      "statsLabel": "In numbers",
+      "statsTitle": "The numbers behind the quality",
+      "capabilitiesLabel": "What we make",
+      "capabilitiesTitle": "A complete program, all under one roof.",
+      "officesLabel": "Locations",
+      "officesTitle": "Close to you, at your service."
+    },
+    "mainTitle": "Tehnoplast PVC & ALU joinery.",
+    "mainSubtitle": "Tehnoplast specializes in the design, production and installation of PVC and ALU joinery, providing quality solutions for homes and businesses across Europe.",
+    "heading1": "Across Europe",
+    "subheading1": "We shape spaces across Europe, combining modern design, top-quality craftsmanship and premium materials. Our projects in Germany, France and Serbia reflect a commitment to detail, functionality and innovation, delivering solutions tailored to each client's specific needs.",
+    "heading2": "Uncompromising craftsmanship",
+    "subheading2": "We tailor every space to your wishes, turning ideas into reality with careful craftsmanship and premium materials. Our products combine design, functionality and quality, delivering solutions made to measure for every client."
+  },
+
+  "Kontakt": {
+    "contact": {
+      "heroTitle": "Let's talk.",
+      "formLabel": "Send an inquiry",
+      "formTitle": "Tell us what you need.",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send message",
+      "directLabel": "Direct contact",
+      "officesLabel": "Locations",
+      "officesTitle": "Our offices",
+      "formNote": "We reply within 24h on business days."
+    },
+    "mainTitle": "Tehnoplast Contact",
+    "mainSubtitle": "Tehnoplast specializes in the design, production and installation of PVC and ALU joinery, providing quality solutions for homes and businesses across Europe.",
+    "heading1": "Uncompromising craftsmanship",
+    "subheading1": "We tailor every space to your wishes, turning ideas into reality with careful craftsmanship and premium materials. Our products combine design, functionality and quality, delivering solutions made to measure for every client.",
+    "btnTitle": "If you have any further questions, feel free to contact us."
+  },
+
+  "PvcAlu": {
+    "eyebrow": "Category — 01",
+    "title": "PVC & ALU Joinery",
+    "subtitle": "The warmth of home and energy efficiency in every detail. From high-insulation PVC systems to aluminium profiles for large glazed areas — a complete program of windows, doors and sliding systems, made in our own production.",
+    "specsLabel": "Specifications",
+    "featuresLabel": "Features",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "Decco 83 PVC",
+        "kind": "PVC system",
+        "specs": [
+          { "label": "Installation depth", "value": "83 mm" },
+          { "label": "Glazing", "value": "up to 52 mm" },
+          { "label": "Chambers", "value": "7" },
+          { "label": "Seals", "value": "3" },
+          { "label": "Uw value", "value": "up to 0.76 W/m²K" },
+          { "label": "Sound insulation", "value": "up to 47 dB" }
+        ],
+        "features": ["100% recyclable profiles", "Eco-friendly", "Modern design", "Wide range of colours and decors"]
+      },
+      {
+        "name": "Schüco LIVIng82 PVC",
+        "kind": "PVC system",
+        "specs": [
+          { "label": "Installation depth", "value": "82 mm" },
+          { "label": "System", "value": "7-chamber" },
+          { "label": "Sealing", "value": "Triple" },
+          { "label": "Uw value", "value": "up to 0.74 W/m²K" }
+        ],
+        "features": ["Large dimensions possible", "Maximum stability and durability", "Wide range of colours and finishes"]
+      },
+      {
+        "name": "Elvial W59 SI² ALU",
+        "kind": "ALU system",
+        "specs": [
+          { "label": "Frame depth", "value": "59 mm" },
+          { "label": "Sash depth", "value": "68 mm" },
+          { "label": "Thermal break", "value": "24 mm" },
+          { "label": "Uf value", "value": "up to 1.8 W/m²K" },
+          { "label": "Uw value", "value": "up to 0.9 W/m²K" },
+          { "label": "Sound insulation", "value": "up to 45 dB" },
+          { "label": "Water tightness", "value": "E1050" },
+          { "label": "Wind resistance", "value": "C5" }
+        ],
+        "features": ["Available in all RAL colours"]
+      },
+      {
+        "name": "Schüco AWS 75.SI ALU",
+        "kind": "ALU system",
+        "specs": [
+          { "label": "Frame depth", "value": "75 mm" },
+          { "label": "Sash depth", "value": "84 mm" },
+          { "label": "Uf value", "value": "up to 1.3 W/m²K" },
+          { "label": "Uw value", "value": "up to 0.8 W/m²K" },
+          { "label": "Sound insulation", "value": "up to 47 dB" },
+          { "label": "Wind resistance", "value": "C5/B5" },
+          { "label": "Water tightness", "value": "9A" },
+          { "label": "Glazing", "value": "Triple up to 54 mm" }
+        ],
+        "features": ["Available in all RAL colours"]
+      },
+      {
+        "name": "HST Sliding Systems",
+        "kind": "Sliding system",
+        "specs": [
+          { "label": "Sash width", "value": "up to 6.5 m" },
+          { "label": "Sash weight", "value": "up to 400 kg" },
+          { "label": "Uw value", "value": "up to 0.73 W/m²K" },
+          { "label": "Sound insulation", "value": "up to 45 dB" },
+          { "label": "Chambers (frame)", "value": "5" },
+          { "label": "Chambers (sash)", "value": "7" },
+          { "label": "Installation depth", "value": "83 mm" }
+        ],
+        "features": ["Low threshold", "Multi-point locking"]
+      }
+    ]
+  },
+
+  "PergoleStakleni": {
+    "eyebrow": "Category — 02",
+    "title": "Pergolas & Glass Systems",
+    "subtitle": "Perfect comfort and protection in every season. Bioclimatic and textile pergolas, sliding glass systems and ZIP screen solutions — for terraces, gardens and outdoor spaces used all year round.",
+    "specsLabel": "Specifications",
+    "featuresLabel": "Features",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "Bioclimatic Pergola TP 160",
+        "kind": "Bioclimatic pergola",
+        "specs": [
+          { "label": "Louvres", "value": "Rotating 0°–135°" },
+          { "label": "Structure", "value": "Aluminium" },
+          { "label": "Louvre material", "value": "Extruded aluminium" },
+          { "label": "Water drainage", "value": "Integrated system" },
+          { "label": "Lighting", "value": "Integrated LED" },
+          { "label": "Control", "value": "Remote control" }
+        ],
+        "features": ["Concealed joints", "Module coupling possible", "Protection from sun, rain and wind", "Natural ventilation", "Available in all RAL colours"]
+      },
+      {
+        "name": "Textile Pergola TP-TEXTILE",
+        "kind": "Textile pergola",
+        "specs": [
+          { "label": "Structure", "value": "Aluminium" },
+          { "label": "Canopy", "value": "Movable textile" },
+          { "label": "Slope", "value": "One-sided" },
+          { "label": "Max. dimension", "value": "600 × 500 cm" },
+          { "label": "Water drainage", "value": "Built-in drains" },
+          { "label": "Wind resistance", "value": "up to 100 km/h" },
+          { "label": "Lighting", "value": "Integrated LED" },
+          { "label": "Control", "value": "Remote + sensors" }
+        ],
+        "features": ["Concealed joints", "Module coupling possible", "Automatic sensors"]
+      },
+      {
+        "name": "Glass Systems",
+        "kind": "Glass system",
+        "specs": [
+          { "label": "System", "value": "Sliding, no vertical profiles" },
+          { "label": "Glass", "value": "Tempered safety 8–10 mm" },
+          { "label": "Max. height", "value": "2800 mm" },
+          { "label": "Profiles", "value": "Discreet top and bottom" },
+          { "label": "Locking", "value": "Available" },
+          { "label": "Opening", "value": "Partial or full" }
+        ],
+        "features": ["Installation on existing structures", "Protection from wind, rain and noise", "Maximum natural light"]
+      },
+      {
+        "name": "ZIP Screen Systems",
+        "kind": "ZIP Screen",
+        "specs": [
+          { "label": "Box and guides", "value": "Aluminium" },
+          { "label": "Fabric", "value": "High-density screen" },
+          { "label": "Technology", "value": "ZIP" },
+          { "label": "Max. dimension", "value": "600 × 300 cm" },
+          { "label": "Transparency", "value": "Multiple levels" },
+          { "label": "Water drainage", "value": "Integrated" },
+          { "label": "Wind resistance", "value": "up to 100 km/h" },
+          { "label": "Control", "value": "Remote + sensors" }
+        ],
+        "features": ["Protection from sun, UV, wind and insects", "Available in all RAL colours"]
+      }
+    ]
+  },
+
+  "OgradeKapije": {
+    "eyebrow": "Category — 03",
+    "title": "Fences & Gates",
+    "subtitle": "Modern solutions that ensure security, privacy and aesthetics. Aluminium and steel fences with CNC laser-cut infills, and automated sliding gates — custom-made for every property.",
+    "specsLabel": "Specifications",
+    "featuresLabel": "Features",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "ALU Fences",
+        "kind": "Aluminium fence",
+        "specs": [
+          { "label": "Slats", "value": "Horizontal aluminium slats" },
+          { "label": "Models", "value": "3 (horizontal, angled 45°, combined)" },
+          { "label": "Max. panel size", "value": "2500 mm" },
+          { "label": "Height", "value": "Custom" },
+          { "label": "Surface", "value": "Anodised or powder-coated" },
+          { "label": "Most popular colour", "value": "RAL 7016 Anthracite grey" }
+        ],
+        "features": ["Combinable with wall elements and glass", "Simple installation", "Maintenance-free durability", "Available in all RAL colours"]
+      },
+      {
+        "name": "Steel Fences CNC Laser",
+        "kind": "Steel fence",
+        "specs": [
+          { "label": "Frame profile", "value": "60 × 40 mm" },
+          { "label": "Infills", "value": "Steel 2 mm" },
+          { "label": "Models", "value": "6 (CNC laser-cut)" },
+          { "label": "Substructure", "value": "Galvanised" },
+          { "label": "Finishing", "value": "Powder coating + thermal" },
+          { "label": "Installation", "value": "On wall or posts" }
+        ],
+        "features": ["Custom-made", "Combination with solid panels", "Anti-corrosion protection", "Colours: RAL 7016, 9005, 9006, 7012"]
+      },
+      {
+        "name": "Sliding Gates CNC Laser + Automation",
+        "kind": "Sliding gate",
+        "specs": [
+          { "label": "Frame profile", "value": "80 × 60 mm" },
+          { "label": "Infills", "value": "Steel 2 mm" },
+          { "label": "Models", "value": "6 (CNC laser-cut)" },
+          { "label": "Construction", "value": "Self-supporting, no bottom rail" },
+          { "label": "Substructure", "value": "Galvanised" },
+          { "label": "Automation", "value": "NICE / BFT / CAME" },
+          { "label": "Control", "value": "Remote control" },
+          { "label": "Installation", "value": "On wall or posts" }
+        ],
+        "features": ["Safe system with photocells", "Quiet operation and long lifespan", "Available in all RAL colours"]
+      }
+    ]
+  },
+
+  "Cnc": {
+    "eyebrow": "Category — 04",
+    "title": "CNC Machining & Steel Structures",
+    "subtitle": "The most impressive part of our production: fiber laser, laser welding, CNC bending and steel structures. Where precision is measured in tenths of a millimetre and strength in tonnes.",
+    "video": "Video",
+    "image": "Image",
+    "statsLabel": "In numbers",
+    "stats": [
+      { "value": 24, "suffix": "+", "label": "Years of experience" },
+      { "value": 5000, "suffix": "+", "label": "Completed projects" },
+      { "value": 2000, "suffix": "m²", "label": "Production facility" },
+      { "value": 30, "suffix": "+", "label": "Employees" }
+    ],
+    "processLabel": "Process",
+    "processTitle": "From idea to realisation.",
+    "processSubtitle": "Six steps, all under one roof — from the first drawing to on-site installation.",
+    "capabilitiesLabel": "Capabilities",
+    "capabilitiesTitle": "Four technologies, one facility.",
+    "specsLabel": "Specifications",
+    "featuresLabel": "Features",
+    "subcategories": [
+      {
+        "name": "Metalwork & Steel Structures",
+        "kind": "Metalwork & Structures",
+        "media": "image",
+        "specs": [
+          { "label": "Design", "value": "Custom, 3D + documentation" },
+          { "label": "Preparation", "value": "CNC" },
+          { "label": "Cutting and welding", "value": "Laser, MIG/MAG" },
+          { "label": "Installation", "value": "On site" }
+        ],
+        "features": ["Steel canopies", "Staircases (glass / metal railing)", "Steel galleries", "Hall structures", "Decorative metal elements", "Gates and fences", "Steel / glass / wood combination", "Beams, columns and supports"]
+      },
+      {
+        "name": "Fiber Laser Cutting",
+        "kind": "Fiber laser",
+        "media": "video",
+        "specs": [
+          { "label": "Table format", "value": "3000 × 1500 mm" },
+          { "label": "Mild steel", "value": "up to 25 mm" },
+          { "label": "Stainless steel", "value": "up to 20 mm" },
+          { "label": "Aluminium", "value": "up to 15 mm" }
+        ],
+        "features": ["High speed and precision", "Perfect edge with no extra finishing", "Material optimisation, minimal waste"]
+      },
+      {
+        "name": "Laser Welding",
+        "kind": "Laser welding",
+        "media": "video",
+        "specs": [
+          { "label": "Joint", "value": "Precise and clean" },
+          { "label": "Heat zone", "value": "Minimal" },
+          { "label": "Materials", "value": "Stainless / aluminium / steel" }
+        ],
+        "features": ["No spatter or deformation", "High strength and aesthetic joint", "Suitable for thin and demanding materials"]
+      },
+      {
+        "name": "CNC Sheet Bending",
+        "kind": "CNC bending",
+        "media": "video",
+        "specs": [
+          { "label": "Press", "value": "3200 mm" },
+          { "label": "Steel", "value": "up to 10 mm" },
+          { "label": "Stainless steel", "value": "up to 6 mm" },
+          { "label": "Aluminium", "value": "up to 8 mm" }
+        ],
+        "features": ["High precision and repeatability", "Complex and demanding shapes"]
+      }
+    ]
+  },
+
+  "Menu": {
+    "products": [
+      {
+        "name": "PVC & ALU Joinery",
+        "link": "/pvc-alu-stolarija"
+      },
+      {
+        "name": "Pergolas & Glass Systems",
+        "link": "/pergole-stakleni-sistemi"
+      },
+      {
+        "name": "Fences & Gates",
+        "link": "/ograde-i-kapije"
+      },
+      {
+        "name": "CNC Machining & Steel Structures",
+        "link": "/cnc-obrada"
+      }
+    ],
+    "linx": [
+      {
+        "name": "Home",
+        "link": "/"
+      },
+      {
+        "name": "About us",
+        "link": "/o-nama"
+      },
+      {
+        "name": "Contact",
+        "link": "/kontakt"
+      }
+    ],
+    "jezik": "Language",
+    "kontakt": "Contact",
+    "meni": "Menu",
+    "stranice": "Pages",
+    "proizvodi": "Products"
+  }
+}

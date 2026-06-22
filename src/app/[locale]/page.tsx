@@ -1,64 +1,24 @@
 import MainLayout from "@/components/layout/MainLayout";
-import Hero from "@/components/ui/Hero";
-import Overview from "@/components/ui/Overview";
-import StatsSection from "@/components/ui/StatsSection";
-import VideoSection from "@/components/ui/VideoSection";
-import { useTranslations } from "next-intl";
+import HomeHero from "@/components/ui/home/HomeHero";
+import HomeCategories from "@/components/ui/home/HomeCategories";
+import WhyTehnoplast from "@/components/ui/home/WhyTehnoplast";
+import ProcessStrip from "@/components/ui/home/ProcessStrip";
+import ReferenceStrip from "@/components/ui/home/ReferenceStrip";
+import CtaBanner from "@/components/ui/home/CtaBanner";
 
+// Redesigned homepage. MainLayout provides the shared chrome (Nav + Sidemenu +
+// Footer); the sections below are the homepage-only content. color="white"
+// gives the light logo, since the hero sits on the dark brand background.
 export default function Home() {
-  // Ako stranica nije staticna zove se get translation iz next-intl/server. Tj, kada ne pozivas podatke
-  const t = useTranslations("Home");
-  const izrada = t.raw("izrada");
-  const proces = t.raw("proces");
-
   return (
     <MainLayout color="white">
       <main>
-        <Hero
-          heading={t("mainTitle")}
-          description={t("mainSubtitle")}
-          image="/images/hero/hero.jpg"
-        />
-        <Overview
-          accord={true}
-          accordData={izrada}
-          title={t("heading1")}
-          subtitle={t("subheading1")}
-          text={t("btnTitle")}
-          btnText={t("btn1")}
-          link="/kontakt"
-          btn={true}
-          showLink={true}
-        />
-
-
-        <Overview
-          accord={false}
-          accordData={null}
-          btn={false}
-          title={t("heading2")}
-          subtitle={t("subheading2")}
-          text={t("btnTitle")}
-          btnText={t("btn1")}
-          link="/kontakt"
-          showLink={false}
-        />
-
-        <StatsSection />
-
-        <VideoSection />
-
-        <Overview
-          accord={true}
-          accordData={proces}
-          btn={false}
-          title={t("heading3")}
-          subtitle={t("subheading3")}
-          text={t("btnTitle")}
-          btnText={t("btn1")}
-          link="/kontakt"
-          showLink={false}
-        />
+        <HomeHero />
+        <HomeCategories />
+        <WhyTehnoplast />
+        <ProcessStrip />
+        <ReferenceStrip />
+        <CtaBanner />
       </main>
     </MainLayout>
   );

@@ -1,5 +1,86 @@
 {
   "Home": {
+    "hero": {
+      "tagline": "Projektujemo. Proizvodimo. Ugrađujemo.",
+      "titleLead": "Više od 25 godina gradimo",
+      "titleAccent": "kvalitet.",
+      "subtitle": "Projektujemo, proizvodimo i ugrađujemo ALU i PVC stolariju, pergole, ograde i čelične konstrukcije — uz savremenu CNC tehnologiju i evropske standarde.",
+      "ctaPrimary": "Pogledajte proizvode",
+      "ctaSecondary": "Kontaktirajte nas"
+    },
+    "heroStats": [
+      { "value": 25, "suffix": "+", "label": "Godina iskustva" },
+      { "value": 2000, "suffix": "m²", "label": "Proizvodnog prostora" },
+      { "value": 5000, "suffix": "+", "label": "Realizovanih projekata" },
+      { "text": "Srbija i Evropa", "label": "Realizovani projekti" }
+    ],
+    "categoriesSection": {
+      "eyebrow": "Naš asortiman",
+      "title": "Naše kategorije",
+      "subtitle": "Kompletan program rešenja — od stolarije do čeličnih konstrukcija, sve iz sopstvene proizvodnje.",
+      "cardCta": "Saznajte više"
+    },
+    "categoryCards": [
+      {
+        "title": "PVC i ALU Stolarija",
+        "description": "Toplina doma i energetska efikasnost u svakom detalju.",
+        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Klizni Sistemi"]
+      },
+      {
+        "title": "Pergole i Stakleni Sistemi",
+        "description": "Savršena udobnost i zaštita u svakom godišnjem dobu.",
+        "subcategories": ["Bioklimatska Pergola TP 160", "Tekstilna Pergola TP-TEXTILE", "Stakleni Sistemi za Terase", "ZIP Screen Sistemi"]
+      },
+      {
+        "title": "Ograde i Kapije",
+        "description": "Moderna rešenja koja obezbeđuju sigurnost, privatnost i estetiku.",
+        "subcategories": ["ALU Ograde", "Čelične Ograde CNC Laser", "Klizne Kapije CNC Laser + Automatika"]
+      },
+      {
+        "title": "CNC Obrada i Čelične Konstrukcije",
+        "description": "Moderna tehnologija, precizna izrada, vrhunski rezultati.",
+        "subcategories": ["Bravarski Radovi i Čelične Konstrukcije", "Fiber Lasersko Sečenje", "Lasersko Zavarivanje", "CNC Savijanje Lima"]
+      }
+    ],
+    "why": {
+      "eyebrow": "Naše prednosti",
+      "title": "Zašto Tehnoplast?",
+      "subtitle": "Precizno. Pouzdano. Kvalitetno. — princip po kome radimo više od dve i po decenije.",
+      "items": [
+        { "title": "Sopstvena proizvodnja", "text": "Potpuna kontrola kvaliteta od sirovine do gotovog proizvoda." },
+        { "title": "Projektovanje po meri", "text": "3D projektovanje i tehnička rešenja prilagođena vašim potrebama." },
+        { "title": "Vrhunska oprema", "text": "Savremene CNC mašine i fiber laser tehnologija." },
+        { "title": "Profesionalna montaža", "text": "Brza, sigurna i stručna montaža na terenu." },
+        { "title": "Garancija kvaliteta", "text": "Evropski standardi kvaliteta u svakom detalju." },
+        { "title": "Brza podrška", "text": "Tu smo za vas pre, tokom i nakon ugradnje." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Kako radimo",
+      "title": "Od ideje do gotovog proizvoda",
+      "subtitle": "Od prvog kontakta do ugradnje — jasan proces pod jednim krovom, bez podizvođača.",
+      "steps": [
+        { "title": "Ideja i koncept", "text": "Slušamo vaše potrebe i zajedno definišemo koncept, materijale i pravac rešenja." },
+        { "title": "3D projektovanje", "text": "Izrađujemo precizan 3D model i tehničku dokumentaciju pre svake proizvodnje." },
+        { "title": "CNC priprema", "text": "Programiramo mašine i pripremamo materijal za precizno sečenje i obradu." },
+        { "title": "Zavarivanje", "text": "Spajamo elemente po najvišim standardima, uz kontrolu svakog zavarenog spoja." },
+        { "title": "Zaštita i bojenje", "text": "Plastificiramo i štitimo površine za dugotrajnost i besprekoran završni izgled." },
+        { "title": "Transport i montaža", "text": "Bezbedno isporučujemo i stručno ugrađujemo na vašoj lokaciji, na vreme." }
+      ]
+    },
+    "references": {
+      "eyebrow": "Reference",
+      "count": "5000+",
+      "countLabel": "Realizovanih projekata",
+      "title": "Realizovani projekti širom Srbije i Evrope",
+      "subtitle": "Više od 5000 uspešno realizovanih projekata — od privatnih kuća do industrijskih kompleksa.",
+      "locations": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Šabac", "Zlatibor", "Kopaonik", "Vrnjačka Banja"]
+    },
+    "ctaBanner": {
+      "title": "Od ideje do gotovog proizvoda.",
+      "subtitle": "Kontaktirajte nas danas i dobijte besplatnu konsultaciju.",
+      "button": "Kontaktirajte nas"
+    },
     "mainTitle": "Potpuno rešenje za izradu i ugradnju PVC & ALU stolarije",
     "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
     "heading1": "Beskompromisna izrada",
@@ -502,6 +583,20 @@
   },
 
   "Kontakt": {
+    "contact": {
+      "heroTitle": "Hajde da razgovaramo.",
+      "formLabel": "Pošaljite upit",
+      "formTitle": "Recite nam šta vam treba.",
+      "name": "Ime i prezime",
+      "email": "Email adresa",
+      "phone": "Telefon",
+      "message": "Poruka",
+      "submit": "Pošaljite poruku",
+      "directLabel": "Direktan kontakt",
+      "officesLabel": "Lokacije",
+      "officesTitle": "Naše kancelarije",
+      "formNote": "Odgovaramo u roku od 24h radnim danima."
+    },
     "mainTitle": "Tehnoplast Kontakt",
     "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
     "heading1": "Beskompromisna izrada",
@@ -572,6 +667,17 @@
   },
 
   "O-nama": {
+    "about": {
+      "eyebrow": "O nama",
+      "heroTitle": "25 godina preciznosti, ugrađene u svaki detalj.",
+      "storyLabel": "Naša priča",
+      "statsLabel": "U brojkama",
+      "statsTitle": "Brojke iza kvaliteta",
+      "capabilitiesLabel": "Šta proizvodimo",
+      "capabilitiesTitle": "Kompletan program, sve iz jedne kuće.",
+      "officesLabel": "Lokacije",
+      "officesTitle": "Tu smo za vas, blizu vas."
+    },
     "mainTitle": "Tehnoplast PVC i ALU stolarija.",
     "mainSubtitle": "Tehnoplast je specijalizovan za dizajn, proizvodnju i ugradnju PVC i ALU stolarije, pružajući kvalitetna rešenja za domove i poslovne prostore širom Evrope.",
     "heading1": "Širom Evrope",
@@ -752,43 +858,292 @@
     ]
   },
 
+  "PvcAlu": {
+    "eyebrow": "Kategorija — 01",
+    "title": "PVC i ALU Stolarija",
+    "subtitle": "Toplina doma i energetska efikasnost u svakom detalju. Od PVC sistema vrhunske izolacije do aluminijumskih profila za velike staklene površine — kompletan program prozora, vrata i kliznih sistema, iz sopstvene proizvodnje.",
+    "specsLabel": "Specifikacije",
+    "featuresLabel": "Karakteristike",
+    "image": "Slika",
+    "subcategories": [
+      {
+        "name": "Decco 83 PVC",
+        "kind": "PVC Stolarija",
+        "specs": [
+          { "label": "Ugradna dubina", "value": "83 mm" },
+          { "label": "Staklo", "value": "do 52 mm" },
+          { "label": "Komore", "value": "7" },
+          { "label": "Zaptivke", "value": "3" },
+          { "label": "Uw koeficijent", "value": "do 0,76 W/m²K" },
+          { "label": "Zvučna izolacija", "value": "do 47 dB" }
+        ],
+        "features": ["100% reciklabilni profili", "Ekološki prihvatljivo", "Moderan dizajn", "Širok izbor boja i dekora"]
+      },
+      {
+        "name": "Schüco LIVIng82 PVC",
+        "kind": "PVC Stolarija",
+        "specs": [
+          { "label": "Ugradna dubina", "value": "82 mm" },
+          { "label": "Sistem", "value": "7-komorni" },
+          { "label": "Zaptivanje", "value": "Trostruko" },
+          { "label": "Uw koeficijent", "value": "do 0,74 W/m²K" }
+        ],
+        "features": ["Mogućnost velikih dimenzija", "Maksimalna stabilnost i dugotrajnost", "Širok izbor boja i završnih obrada"]
+      },
+      {
+        "name": "Elvial W59 SI² ALU",
+        "kind": "ALU Stolarija",
+        "specs": [
+          { "label": "Dubina rama", "value": "59 mm" },
+          { "label": "Dubina krila", "value": "68 mm" },
+          { "label": "Termo prekid", "value": "24 mm" },
+          { "label": "Uf koeficijent", "value": "do 1,8 W/m²K" },
+          { "label": "Uw koeficijent", "value": "do 0,9 W/m²K" },
+          { "label": "Zvučna izolacija", "value": "do 45 dB" },
+          { "label": "Vodonepropusnost", "value": "E1050" },
+          { "label": "Otpornost na vetar", "value": "C5" }
+        ],
+        "features": ["Dostupno u svim RAL bojama"]
+      },
+      {
+        "name": "Schüco AWS 75.SI ALU",
+        "kind": "ALU Stolarija",
+        "specs": [
+          { "label": "Dubina rama", "value": "75 mm" },
+          { "label": "Dubina krila", "value": "84 mm" },
+          { "label": "Uf koeficijent", "value": "do 1,3 W/m²K" },
+          { "label": "Uw koeficijent", "value": "do 0,8 W/m²K" },
+          { "label": "Zvučna izolacija", "value": "do 47 dB" },
+          { "label": "Otpornost na vetar", "value": "C5/B5" },
+          { "label": "Vodonepropusnost", "value": "9A" },
+          { "label": "Staklo", "value": "trostruko do 54 mm" }
+        ],
+        "features": ["Dostupno u svim RAL bojama"]
+      },
+      {
+        "name": "HST Klizni Sistemi",
+        "kind": "Klizni sistem",
+        "specs": [
+          { "label": "Širina krila", "value": "do 6,5 m" },
+          { "label": "Težina krila", "value": "do 400 kg" },
+          { "label": "Uw koeficijent", "value": "do 0,73 W/m²K" },
+          { "label": "Zvučna izolacija", "value": "do 45 dB" },
+          { "label": "Komore u okviru", "value": "5" },
+          { "label": "Komore u krilu", "value": "7" },
+          { "label": "Ugradna dubina", "value": "83 mm" }
+        ],
+        "features": ["Nizak prag", "Višestruko zaključavanje"]
+      }
+    ]
+  },
+
+  "PergoleStakleni": {
+    "eyebrow": "Kategorija — 02",
+    "title": "Pergole i Stakleni Sistemi",
+    "subtitle": "Savršena udobnost i zaštita u svakom godišnjem dobu. Bioklimatske i tekstilne pergole, klizni stakleni sistemi i ZIP screen rešenja — za terase, bašte i otvorene prostore koji se koriste tokom cele godine.",
+    "specsLabel": "Specifikacije",
+    "featuresLabel": "Karakteristike",
+    "image": "Slika",
+    "subcategories": [
+      {
+        "name": "Bioklimatska Pergola TP 160",
+        "kind": "Bioklimatska pergola",
+        "specs": [
+          { "label": "Lamele", "value": "Rotirajuće 0°–135°" },
+          { "label": "Konstrukcija", "value": "Aluminijum" },
+          { "label": "Materijal lamela", "value": "Ekstrudirani aluminijum" },
+          { "label": "Odvodnja vode", "value": "Integrisani sistem" },
+          { "label": "Rasveta", "value": "Integrisana LED" },
+          { "label": "Upravljanje", "value": "Daljinsko" }
+        ],
+        "features": ["Skriveni spojevi", "Mogućnost spajanja modula", "Zaštita od sunca, kiše i vetra", "Prirodna ventilacija", "Dostupno u svim RAL bojama"]
+      },
+      {
+        "name": "Tekstilna Pergola TP-TEXTILE",
+        "kind": "Tekstilna pergola",
+        "specs": [
+          { "label": "Konstrukcija", "value": "Aluminijum" },
+          { "label": "Platno", "value": "Pomično tekstilno" },
+          { "label": "Nagib", "value": "Na jednu stranu" },
+          { "label": "Max dimenzija", "value": "600 × 500 cm" },
+          { "label": "Odvodnja vode", "value": "Ugrađeni odvodi" },
+          { "label": "Otpornost na vetar", "value": "do 100 km/h" },
+          { "label": "Rasveta", "value": "Integrisana LED" },
+          { "label": "Upravljanje", "value": "Daljinsko + senzori" }
+        ],
+        "features": ["Skriveni spojevi", "Mogućnost spajanja modula", "Automatski senzori"]
+      },
+      {
+        "name": "Stakleni Sistemi",
+        "kind": "Stakleni sistem",
+        "specs": [
+          { "label": "Sistem", "value": "Klizni, bez vertikalnih profila" },
+          { "label": "Staklo", "value": "Kaljeno sigurnosno 8–10 mm" },
+          { "label": "Max visina", "value": "2800 mm" },
+          { "label": "Profili", "value": "Diskretan donji i gornji" },
+          { "label": "Zaključavanje", "value": "Mogućnost" },
+          { "label": "Otvaranje", "value": "Delimično ili potpuno" }
+        ],
+        "features": ["Ugradnja na postojeće konstrukcije", "Zaštita od vetra, kiše i buke", "Maksimalan dotok prirodne svetlosti"]
+      },
+      {
+        "name": "ZIP Screen Sistemi",
+        "kind": "ZIP Screen",
+        "specs": [
+          { "label": "Kutija i vodilice", "value": "Aluminijum" },
+          { "label": "Platno", "value": "Screen visoke gustine" },
+          { "label": "Tehnologija", "value": "ZIP" },
+          { "label": "Max dimenzija", "value": "600 × 300 cm" },
+          { "label": "Transparentnost", "value": "Više stepena" },
+          { "label": "Odvod vode", "value": "Ugrađen" },
+          { "label": "Otpornost na vetar", "value": "do 100 km/h" },
+          { "label": "Upravljanje", "value": "Daljinsko + senzori" }
+        ],
+        "features": ["Zaštita od sunca, UV, vetra i insekata", "Dostupno u svim RAL bojama"]
+      }
+    ]
+  },
+
+  "OgradeKapije": {
+    "eyebrow": "Kategorija — 03",
+    "title": "Ograde i Kapije",
+    "subtitle": "Moderna rešenja koja obezbeđuju sigurnost, privatnost i estetiku. Aluminijumske i čelične ograde sa CNC laser sečenim platnima, i klizne kapije sa automatikom — izrada po meri za svaki objekat.",
+    "specsLabel": "Specifikacije",
+    "featuresLabel": "Karakteristike",
+    "image": "Slika",
+    "subcategories": [
+      {
+        "name": "ALU Ograde",
+        "kind": "Aluminijumska ograda",
+        "specs": [
+          { "label": "Lamele", "value": "Horizontalne aluminijumske" },
+          { "label": "Modeli", "value": "3 (horizontalne, kose 45°, kombinovane)" },
+          { "label": "Max dimenzija polja", "value": "2500 mm" },
+          { "label": "Visina", "value": "Po meri" },
+          { "label": "Površina", "value": "Anodizirana ili plastificirana" },
+          { "label": "Najpopularnija boja", "value": "RAL 7016 Antracit siva" }
+        ],
+        "features": ["Kombinacija sa zidnim elementima i staklom", "Jednostavna montaža", "Dugotrajnost bez održavanja", "Dostupno u svim RAL bojama"]
+      },
+      {
+        "name": "Čelične Ograde CNC Laser",
+        "kind": "Čelična ograda",
+        "specs": [
+          { "label": "Ram profil", "value": "60 × 40 mm" },
+          { "label": "Platna", "value": "Čelik 2 mm" },
+          { "label": "Modeli", "value": "6 (CNC laser sečena)" },
+          { "label": "Podkonstrukcija", "value": "Pocinkovana" },
+          { "label": "Obrada", "value": "Plastifikacija + termička" },
+          { "label": "Ugradnja", "value": "Na zid ili stubove" }
+        ],
+        "features": ["Izrada po meri", "Kombinacija sa punim panelima", "Antikorozivna zaštita", "Boje: RAL 7016, 9005, 9006, 7012"]
+      },
+      {
+        "name": "Klizne Kapije CNC Laser + Automatika",
+        "kind": "Klizna kapija",
+        "specs": [
+          { "label": "Ram profil", "value": "80 × 60 mm" },
+          { "label": "Platna", "value": "Čelik 2 mm" },
+          { "label": "Modeli", "value": "6 (CNC laser sečena)" },
+          { "label": "Konstrukcija", "value": "Samonoseća, bez donje šine" },
+          { "label": "Podkonstrukcija", "value": "Pocinkovana" },
+          { "label": "Automatika", "value": "NICE / BFT / CAME" },
+          { "label": "Upravljanje", "value": "Daljinsko" },
+          { "label": "Ugradnja", "value": "Na zid ili stubove" }
+        ],
+        "features": ["Bezbedan sistem sa fotoćelijama", "Tih rad i dug vek trajanja", "Dostupno u svim RAL bojama"]
+      }
+    ]
+  },
+
+  "Cnc": {
+    "eyebrow": "Kategorija — 04",
+    "title": "CNC Obrada i Čelične Konstrukcije",
+    "subtitle": "Najimpresivniji deo naše proizvodnje: fiber laser, lasersko zavarivanje, CNC savijanje i čelične konstrukcije. Tamo gde se preciznost meri u desetinkama milimetra, a snaga u tonama.",
+    "video": "Video",
+    "image": "Slika",
+    "statsLabel": "U brojkama",
+    "stats": [
+      { "value": 24, "suffix": "+", "label": "Godina iskustva" },
+      { "value": 5000, "suffix": "+", "label": "Realizovanih projekata" },
+      { "value": 2000, "suffix": "m²", "label": "Proizvodni pogon" },
+      { "value": 30, "suffix": "+", "label": "Radnika" }
+    ],
+    "processLabel": "Proces",
+    "processTitle": "Od ideje do realizacije.",
+    "processSubtitle": "Šest koraka, sve pod jednim krovom — od prvog crteža do montaže na terenu.",
+    "capabilitiesLabel": "Mogućnosti",
+    "capabilitiesTitle": "Četiri tehnologije, jedan pogon.",
+    "specsLabel": "Specifikacije",
+    "featuresLabel": "Karakteristike",
+    "subcategories": [
+      {
+        "name": "Bravarski Radovi i Čelične Konstrukcije",
+        "kind": "Bravarija & Konstrukcije",
+        "media": "image",
+        "specs": [
+          { "label": "Projektovanje", "value": "Po meri, 3D + dokumentacija" },
+          { "label": "Priprema", "value": "CNC" },
+          { "label": "Sečenje i zavarivanje", "value": "Laser, MIG/MAG" },
+          { "label": "Montaža", "value": "Na terenu" }
+        ],
+        "features": ["Čelične nadstrešnice", "Stepeništa (staklo / metalna ograda)", "Čelične galerije", "Konstrukcije hala", "Dekorativni metalni elementi", "Kapije i ograde", "Kombinacija čelik / staklo / drvo", "Grede, stubovi i nosači"]
+      },
+      {
+        "name": "Fiber Lasersko Sečenje",
+        "kind": "Fiber laser",
+        "media": "video",
+        "specs": [
+          { "label": "Format stola", "value": "3000 × 1500 mm" },
+          { "label": "Crni čelik", "value": "do 25 mm" },
+          { "label": "Inox", "value": "do 20 mm" },
+          { "label": "Aluminijum", "value": "do 15 mm" }
+        ],
+        "features": ["Visoka brzina i preciznost", "Savršena ivica bez dodatne obrade", "Optimizacija materijala, minimalan otpad"]
+      },
+      {
+        "name": "Lasersko Zavarivanje",
+        "kind": "Lasersko zavarivanje",
+        "media": "video",
+        "specs": [
+          { "label": "Spoj", "value": "Precizan i čist" },
+          { "label": "Termička zona", "value": "Minimalna" },
+          { "label": "Materijali", "value": "Inox / aluminijum / čelik" }
+        ],
+        "features": ["Bez prskanja i deformacija", "Visoka čvrstoća i estetika spoja", "Pogodno za tanke i zahtevne materijale"]
+      },
+      {
+        "name": "CNC Savijanje Lima",
+        "kind": "CNC savijanje",
+        "media": "video",
+        "specs": [
+          { "label": "Presa", "value": "3200 mm" },
+          { "label": "Čelik", "value": "do 10 mm" },
+          { "label": "Inox", "value": "do 6 mm" },
+          { "label": "Aluminijum", "value": "do 8 mm" }
+        ],
+        "features": ["Visoka preciznost i ponovljivost", "Kompleksni i zahtevni oblici"]
+      }
+    ]
+  },
+
   "Menu": {
     "products": [
       {
-        "name": "Prozori",
-        "link": "/prozori"
+        "name": "PVC i ALU Stolarija",
+        "link": "/pvc-alu-stolarija"
       },
       {
-        "name": "Vrata",
-        "link": "/vrata"
+        "name": "Pergole i Stakleni Sistemi",
+        "link": "/pergole-stakleni-sistemi"
       },
       {
-        "name": "Sistemi ostakljivanja",
-        "link": "/sistemi-ostakljivanja"
+        "name": "Ograde i Kapije",
+        "link": "/ograde-i-kapije"
       },
       {
-        "name": "Fasade",
-        "link": "/fasade"
-      },
-      {
-        "name": "Pergole",
-        "link": "/pergole"
-      },
-      {
-        "name": "Klizni sistemi",
-        "link": "/klizni-sistemi"
-      },
-      {
-        "name": "Garažna vrata",
-        "link": "/garazna-vrata"
-      },
-      {
-        "name": "Ograde i gelenderi",
-        "link": "/ograde-i-gelenderi"
-      },
-      {
-        "name": "Prateća oprema",
-        "link": "/prateca-oprema"
+        "name": "CNC Obrada i Čelične Konstrukcije",
+        "link": "/cnc-obrada"
       }
     ],
     "linx": [
@@ -806,6 +1161,9 @@
       }
     ],
     "jezik":"Jezik",
-    "kontakt":"Kontakt"
+    "kontakt":"Kontakt",
+    "meni": "Meni",
+    "stranice": "Stranice",
+    "proizvodi": "Proizvodi"
   }
 }

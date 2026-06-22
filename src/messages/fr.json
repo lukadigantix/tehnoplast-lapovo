@@ -1,5 +1,86 @@
 {
   "Home": {
+    "hero": {
+      "tagline": "Nous concevons. Nous fabriquons. Nous installons.",
+      "titleLead": "Depuis plus de 25 ans, nous bâtissons la",
+      "titleAccent": "qualité.",
+      "subtitle": "Nous concevons, fabriquons et installons des menuiseries ALU et PVC, des pergolas, des clôtures et des structures métalliques — avec une technologie CNC moderne et des standards européens.",
+      "ctaPrimary": "Voir les produits",
+      "ctaSecondary": "Contactez-nous"
+    },
+    "heroStats": [
+      { "value": 25, "suffix": "+", "label": "Ans d'expérience" },
+      { "value": 2000, "suffix": "m²", "label": "D'espace de production" },
+      { "value": 5000, "suffix": "+", "label": "Projets réalisés" },
+      { "text": "Serbie et Europe", "label": "Projets réalisés" }
+    ],
+    "categoriesSection": {
+      "eyebrow": "Notre gamme",
+      "title": "Nos catégories",
+      "subtitle": "Une gamme complète de solutions — des menuiseries aux structures métalliques, le tout issu de notre propre fabrication.",
+      "cardCta": "En savoir plus"
+    },
+    "categoryCards": [
+      {
+        "title": "Menuiseries PVC et ALU",
+        "description": "La chaleur du foyer et l'efficacité énergétique dans chaque détail.",
+        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "Systèmes coulissants HST"]
+      },
+      {
+        "title": "Pergolas et systèmes vitrés",
+        "description": "Un confort et une protection parfaits en toute saison.",
+        "subcategories": ["Pergola bioclimatique TP 160", "Pergola textile TP-TEXTILE", "Systèmes vitrés pour terrasses", "Systèmes ZIP Screen"]
+      },
+      {
+        "title": "Clôtures et portails",
+        "description": "Des solutions modernes qui garantissent sécurité, intimité et esthétique.",
+        "subcategories": ["Clôtures ALU", "Clôtures acier CNC Laser", "Portails coulissants CNC Laser + automatisation"]
+      },
+      {
+        "title": "Usinage CNC et structures métalliques",
+        "description": "Technologie moderne, fabrication précise, résultats d'exception.",
+        "subcategories": ["Serrurerie et structures métalliques", "Découpe laser fibre", "Soudage laser", "Pliage CNC de tôle"]
+      }
+    ],
+    "why": {
+      "eyebrow": "Nos atouts",
+      "title": "Pourquoi Tehnoplast ?",
+      "subtitle": "Précis. Fiable. De qualité. — le principe selon lequel nous travaillons depuis plus de deux décennies et demie.",
+      "items": [
+        { "title": "Production propre", "text": "Contrôle qualité total, de la matière première au produit fini." },
+        { "title": "Conception sur mesure", "text": "Conception 3D et solutions techniques adaptées à vos besoins." },
+        { "title": "Équipement de pointe", "text": "Machines CNC modernes et technologie laser fibre." },
+        { "title": "Montage professionnel", "text": "Montage rapide, sûr et professionnel sur site." },
+        { "title": "Garantie de qualité", "text": "Standards de qualité européens dans chaque détail." },
+        { "title": "Support rapide", "text": "Nous sommes là pour vous — avant, pendant et après l'installation." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Notre méthode",
+      "title": "De l'idée au produit fini",
+      "subtitle": "Du premier contact à l'installation — un processus clair, tout sous un même toit, sans sous-traitants.",
+      "steps": [
+        { "title": "Idée et concept", "text": "Nous écoutons vos besoins et définissons ensemble le concept, les matériaux et l'orientation de la solution." },
+        { "title": "Conception 3D", "text": "Nous réalisons un modèle 3D précis et la documentation technique avant toute fabrication." },
+        { "title": "Préparation CNC", "text": "Nous programmons les machines et préparons le matériau pour une découpe et un usinage précis." },
+        { "title": "Soudage", "text": "Nous assemblons les éléments selon les normes les plus élevées, avec contrôle de chaque soudure." },
+        { "title": "Protection et peinture", "text": "Nous thermolaquons et protégeons les surfaces pour la durabilité et une finition impeccable." },
+        { "title": "Transport et montage", "text": "Nous livrons en toute sécurité et installons de manière professionnelle sur votre site, dans les délais." }
+      ]
+    },
+    "references": {
+      "eyebrow": "Références",
+      "count": "5000+",
+      "countLabel": "Projets réalisés",
+      "title": "Projets réalisés partout en Serbie et en Europe",
+      "subtitle": "Plus de 5000 projets réalisés avec succès — des maisons privées aux complexes industriels.",
+      "locations": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Šabac", "Zlatibor", "Kopaonik", "Vrnjačka Banja"]
+    },
+    "ctaBanner": {
+      "title": "De l'idée au produit fini.",
+      "subtitle": "Contactez-nous dès aujourd'hui pour une consultation gratuite.",
+      "button": "Contactez-nous"
+    },
     "mainTitle": "Solution complète pour la fabrication et l'installation de menuiseries PVC et ALU",
     "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l'installation de menuiseries en PVC et en ALU, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l'Europe.",
     "heading1": "Fabrication sans compromis",
@@ -506,6 +587,20 @@
     "subtitle1": "Des solutions pratiques et efficaces qui assurent l’intimité, la protection contre les insectes et le contrôle de la lumière du soleil. Le choix idéal pour des espaces confortables et fonctionnels, avec durabilité et entretien facile."
   },
   "Kontakt": {
+    "contact": {
+      "heroTitle": "Parlons-en.",
+      "formLabel": "Envoyer une demande",
+      "formTitle": "Dites-nous ce qu'il vous faut.",
+      "name": "Nom et prénom",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "directLabel": "Contact direct",
+      "officesLabel": "Emplacements",
+      "officesTitle": "Nos bureaux",
+      "formNote": "Nous répondons sous 24 h les jours ouvrables."
+    },
     "mainTitle": "Contact Tehnoplast",
     "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l’installation de menuiseries en PVC et en aluminium, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l’Europe.",
     "heading1": "Fabrication sans compromis",
@@ -575,6 +670,17 @@
     ]
   },
   "O-nama": {
+    "about": {
+      "eyebrow": "À propos",
+      "heroTitle": "25 ans de précision, intégrés dans chaque détail.",
+      "storyLabel": "Notre histoire",
+      "statsLabel": "En chiffres",
+      "statsTitle": "Les chiffres derrière la qualité",
+      "capabilitiesLabel": "Ce que nous fabriquons",
+      "capabilitiesTitle": "Un programme complet, tout sous un même toit.",
+      "officesLabel": "Emplacements",
+      "officesTitle": "Près de vous, à votre service."
+    },
     "mainTitle": "Menuiseries PVC et ALU Tehnoplast.",
     "mainSubtitle": "Tehnoplast est spécialisé dans la conception, la fabrication et l'installation de menuiseries en PVC et en aluminium, offrant des solutions de qualité pour les habitations et les espaces professionnels à travers l'Europe.",
     "heading1": "Partout en Europe",
@@ -755,43 +861,292 @@
     ]
   },
 
+  "PvcAlu": {
+    "eyebrow": "Catégorie — 01",
+    "title": "Menuiseries PVC et ALU",
+    "subtitle": "La chaleur du foyer et l'efficacité énergétique dans chaque détail. Des systèmes PVC à haute isolation aux profilés aluminium pour grandes surfaces vitrées — un programme complet de fenêtres, portes et systèmes coulissants, issu de notre propre fabrication.",
+    "specsLabel": "Spécifications",
+    "featuresLabel": "Caractéristiques",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "Decco 83 PVC",
+        "kind": "Système PVC",
+        "specs": [
+          { "label": "Profondeur d'installation", "value": "83 mm" },
+          { "label": "Vitrage", "value": "jusqu'à 52 mm" },
+          { "label": "Chambres", "value": "7" },
+          { "label": "Joints", "value": "3" },
+          { "label": "Coefficient Uw", "value": "jusqu'à 0,76 W/m²K" },
+          { "label": "Isolation acoustique", "value": "jusqu'à 47 dB" }
+        ],
+        "features": ["Profilés 100% recyclables", "Écologique", "Design moderne", "Large choix de couleurs et décors"]
+      },
+      {
+        "name": "Schüco LIVIng82 PVC",
+        "kind": "Système PVC",
+        "specs": [
+          { "label": "Profondeur d'installation", "value": "82 mm" },
+          { "label": "Système", "value": "7 chambres" },
+          { "label": "Étanchéité", "value": "Triple" },
+          { "label": "Coefficient Uw", "value": "jusqu'à 0,74 W/m²K" }
+        ],
+        "features": ["Grandes dimensions possibles", "Stabilité et durabilité maximales", "Large choix de couleurs et finitions"]
+      },
+      {
+        "name": "Elvial W59 SI² ALU",
+        "kind": "Système ALU",
+        "specs": [
+          { "label": "Profondeur du cadre", "value": "59 mm" },
+          { "label": "Profondeur de l'ouvrant", "value": "68 mm" },
+          { "label": "Rupture de pont thermique", "value": "24 mm" },
+          { "label": "Coefficient Uf", "value": "jusqu'à 1,8 W/m²K" },
+          { "label": "Coefficient Uw", "value": "jusqu'à 0,9 W/m²K" },
+          { "label": "Isolation acoustique", "value": "jusqu'à 45 dB" },
+          { "label": "Étanchéité à l'eau", "value": "E1050" },
+          { "label": "Résistance au vent", "value": "C5" }
+        ],
+        "features": ["Disponible dans tous les coloris RAL"]
+      },
+      {
+        "name": "Schüco AWS 75.SI ALU",
+        "kind": "Système ALU",
+        "specs": [
+          { "label": "Profondeur du cadre", "value": "75 mm" },
+          { "label": "Profondeur de l'ouvrant", "value": "84 mm" },
+          { "label": "Coefficient Uf", "value": "jusqu'à 1,3 W/m²K" },
+          { "label": "Coefficient Uw", "value": "jusqu'à 0,8 W/m²K" },
+          { "label": "Isolation acoustique", "value": "jusqu'à 47 dB" },
+          { "label": "Résistance au vent", "value": "C5/B5" },
+          { "label": "Étanchéité à l'eau", "value": "9A" },
+          { "label": "Vitrage", "value": "Triple jusqu'à 54 mm" }
+        ],
+        "features": ["Disponible dans tous les coloris RAL"]
+      },
+      {
+        "name": "Systèmes coulissants HST",
+        "kind": "Système coulissant",
+        "specs": [
+          { "label": "Largeur de l'ouvrant", "value": "jusqu'à 6,5 m" },
+          { "label": "Poids de l'ouvrant", "value": "jusqu'à 400 kg" },
+          { "label": "Coefficient Uw", "value": "jusqu'à 0,73 W/m²K" },
+          { "label": "Isolation acoustique", "value": "jusqu'à 45 dB" },
+          { "label": "Chambres (cadre)", "value": "5" },
+          { "label": "Chambres (ouvrant)", "value": "7" },
+          { "label": "Profondeur d'installation", "value": "83 mm" }
+        ],
+        "features": ["Seuil bas", "Verrouillage multipoint"]
+      }
+    ]
+  },
+
+  "PergoleStakleni": {
+    "eyebrow": "Catégorie — 02",
+    "title": "Pergolas et systèmes vitrés",
+    "subtitle": "Un confort et une protection parfaits en toute saison. Pergolas bioclimatiques et textiles, systèmes vitrés coulissants et solutions ZIP screen — pour terrasses, jardins et espaces extérieurs utilisables toute l'année.",
+    "specsLabel": "Spécifications",
+    "featuresLabel": "Caractéristiques",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "Pergola bioclimatique TP 160",
+        "kind": "Pergola bioclimatique",
+        "specs": [
+          { "label": "Lames", "value": "Orientables 0°–135°" },
+          { "label": "Structure", "value": "Aluminium" },
+          { "label": "Matériau des lames", "value": "Aluminium extrudé" },
+          { "label": "Évacuation d'eau", "value": "Système intégré" },
+          { "label": "Éclairage", "value": "LED intégré" },
+          { "label": "Commande", "value": "Télécommande" }
+        ],
+        "features": ["Assemblages cachés", "Couplage de modules possible", "Protection contre le soleil, la pluie et le vent", "Ventilation naturelle", "Disponible dans tous les coloris RAL"]
+      },
+      {
+        "name": "Pergola textile TP-TEXTILE",
+        "kind": "Pergola textile",
+        "specs": [
+          { "label": "Structure", "value": "Aluminium" },
+          { "label": "Toile", "value": "Textile mobile" },
+          { "label": "Inclinaison", "value": "Sur un côté" },
+          { "label": "Dimension max.", "value": "600 × 500 cm" },
+          { "label": "Évacuation d'eau", "value": "Évacuations intégrées" },
+          { "label": "Résistance au vent", "value": "jusqu'à 100 km/h" },
+          { "label": "Éclairage", "value": "LED intégré" },
+          { "label": "Commande", "value": "Télécommande + capteurs" }
+        ],
+        "features": ["Assemblages cachés", "Couplage de modules possible", "Capteurs automatiques"]
+      },
+      {
+        "name": "Systèmes vitrés",
+        "kind": "Système vitré",
+        "specs": [
+          { "label": "Système", "value": "Coulissant, sans profilés verticaux" },
+          { "label": "Verre", "value": "Trempé de sécurité 8–10 mm" },
+          { "label": "Hauteur max.", "value": "2800 mm" },
+          { "label": "Profilés", "value": "Discrets en haut et en bas" },
+          { "label": "Verrouillage", "value": "Possible" },
+          { "label": "Ouverture", "value": "Partielle ou totale" }
+        ],
+        "features": ["Installation sur structures existantes", "Protection contre le vent, la pluie et le bruit", "Apport maximal de lumière naturelle"]
+      },
+      {
+        "name": "Systèmes ZIP Screen",
+        "kind": "ZIP Screen",
+        "specs": [
+          { "label": "Coffre et coulisses", "value": "Aluminium" },
+          { "label": "Toile", "value": "Screen haute densité" },
+          { "label": "Technologie", "value": "ZIP" },
+          { "label": "Dimension max.", "value": "600 × 300 cm" },
+          { "label": "Transparence", "value": "Plusieurs niveaux" },
+          { "label": "Évacuation d'eau", "value": "Intégrée" },
+          { "label": "Résistance au vent", "value": "jusqu'à 100 km/h" },
+          { "label": "Commande", "value": "Télécommande + capteurs" }
+        ],
+        "features": ["Protection contre le soleil, les UV, le vent et les insectes", "Disponible dans tous les coloris RAL"]
+      }
+    ]
+  },
+
+  "OgradeKapije": {
+    "eyebrow": "Catégorie — 03",
+    "title": "Clôtures et portails",
+    "subtitle": "Des solutions modernes qui garantissent sécurité, intimité et esthétique. Clôtures en aluminium et en acier avec remplissages découpés au laser CNC, et portails coulissants automatisés — fabrication sur mesure pour chaque bâtiment.",
+    "specsLabel": "Spécifications",
+    "featuresLabel": "Caractéristiques",
+    "image": "Image",
+    "subcategories": [
+      {
+        "name": "Clôtures ALU",
+        "kind": "Clôture aluminium",
+        "specs": [
+          { "label": "Lames", "value": "Lames aluminium horizontales" },
+          { "label": "Modèles", "value": "3 (horizontales, inclinées 45°, combinées)" },
+          { "label": "Dimension max. du panneau", "value": "2500 mm" },
+          { "label": "Hauteur", "value": "Sur mesure" },
+          { "label": "Surface", "value": "Anodisée ou thermolaquée" },
+          { "label": "Couleur la plus populaire", "value": "RAL 7016 Gris anthracite" }
+        ],
+        "features": ["Combinable avec éléments de mur et verre", "Montage simple", "Durabilité sans entretien", "Disponible dans tous les coloris RAL"]
+      },
+      {
+        "name": "Clôtures acier CNC Laser",
+        "kind": "Clôture acier",
+        "specs": [
+          { "label": "Profilé du cadre", "value": "60 × 40 mm" },
+          { "label": "Remplissages", "value": "Acier 2 mm" },
+          { "label": "Modèles", "value": "6 (découpe laser CNC)" },
+          { "label": "Ossature", "value": "Galvanisée" },
+          { "label": "Traitement", "value": "Thermolaquage + thermique" },
+          { "label": "Installation", "value": "Sur mur ou poteaux" }
+        ],
+        "features": ["Fabrication sur mesure", "Combinaison avec panneaux pleins", "Protection anticorrosion", "Couleurs : RAL 7016, 9005, 9006, 7012"]
+      },
+      {
+        "name": "Portails coulissants CNC Laser + automatisation",
+        "kind": "Portail coulissant",
+        "specs": [
+          { "label": "Profilé du cadre", "value": "80 × 60 mm" },
+          { "label": "Remplissages", "value": "Acier 2 mm" },
+          { "label": "Modèles", "value": "6 (découpe laser CNC)" },
+          { "label": "Construction", "value": "Autoportante, sans rail au sol" },
+          { "label": "Ossature", "value": "Galvanisée" },
+          { "label": "Automatisation", "value": "NICE / BFT / CAME" },
+          { "label": "Commande", "value": "Télécommande" },
+          { "label": "Installation", "value": "Sur mur ou poteaux" }
+        ],
+        "features": ["Système sécurisé avec cellules photoélectriques", "Fonctionnement silencieux et longue durée de vie", "Disponible dans tous les coloris RAL"]
+      }
+    ]
+  },
+
+  "Cnc": {
+    "eyebrow": "Catégorie — 04",
+    "title": "Usinage CNC et structures métalliques",
+    "subtitle": "La partie la plus impressionnante de notre production : laser fibre, soudage laser, pliage CNC et structures en acier. Là où la précision se mesure en dixièmes de millimètre et la puissance en tonnes.",
+    "video": "Vidéo",
+    "image": "Image",
+    "statsLabel": "En chiffres",
+    "stats": [
+      { "value": 24, "suffix": "+", "label": "Années d'expérience" },
+      { "value": 5000, "suffix": "+", "label": "Projets réalisés" },
+      { "value": 2000, "suffix": "m²", "label": "Atelier de production" },
+      { "value": 30, "suffix": "+", "label": "Employés" }
+    ],
+    "processLabel": "Processus",
+    "processTitle": "De l'idée à la réalisation.",
+    "processSubtitle": "Six étapes, tout sous un même toit — du premier dessin à la montage sur site.",
+    "capabilitiesLabel": "Capacités",
+    "capabilitiesTitle": "Quatre technologies, un seul atelier.",
+    "specsLabel": "Spécifications",
+    "featuresLabel": "Caractéristiques",
+    "subcategories": [
+      {
+        "name": "Serrurerie et structures métalliques",
+        "kind": "Serrurerie & structures",
+        "media": "image",
+        "specs": [
+          { "label": "Conception", "value": "Sur mesure, 3D + documentation" },
+          { "label": "Préparation", "value": "CNC" },
+          { "label": "Découpe et soudage", "value": "Laser, MIG/MAG" },
+          { "label": "Montage", "value": "Sur site" }
+        ],
+        "features": ["Auvents en acier", "Escaliers (verre / garde-corps métallique)", "Galeries en acier", "Structures de halls", "Éléments métalliques décoratifs", "Portails et clôtures", "Combinaison acier / verre / bois", "Poutres, poteaux et supports"]
+      },
+      {
+        "name": "Découpe laser fibre",
+        "kind": "Laser fibre",
+        "media": "video",
+        "specs": [
+          { "label": "Format de table", "value": "3000 × 1500 mm" },
+          { "label": "Acier noir", "value": "jusqu'à 25 mm" },
+          { "label": "Inox", "value": "jusqu'à 20 mm" },
+          { "label": "Aluminium", "value": "jusqu'à 15 mm" }
+        ],
+        "features": ["Grande vitesse et précision", "Bord parfait sans usinage supplémentaire", "Optimisation des matériaux, déchets minimaux"]
+      },
+      {
+        "name": "Soudage laser",
+        "kind": "Soudage laser",
+        "media": "video",
+        "specs": [
+          { "label": "Jonction", "value": "Précise et nette" },
+          { "label": "Zone thermique", "value": "Minimale" },
+          { "label": "Matériaux", "value": "Inox / aluminium / acier" }
+        ],
+        "features": ["Sans projections ni déformations", "Haute résistance et esthétique de la soudure", "Adapté aux matériaux fins et exigeants"]
+      },
+      {
+        "name": "Pliage CNC de tôle",
+        "kind": "Pliage CNC",
+        "media": "video",
+        "specs": [
+          { "label": "Presse", "value": "3200 mm" },
+          { "label": "Acier", "value": "jusqu'à 10 mm" },
+          { "label": "Inox", "value": "jusqu'à 6 mm" },
+          { "label": "Aluminium", "value": "jusqu'à 8 mm" }
+        ],
+        "features": ["Haute précision et répétabilité", "Formes complexes et exigeantes"]
+      }
+    ]
+  },
+
   "Menu": {
     "products": [
       {
-        "name": "Fenêtres",
-        "link": "/prozori"
+        "name": "Menuiseries PVC et ALU",
+        "link": "/pvc-alu-stolarija"
       },
       {
-        "name": "Portes",
-        "link": "/vrata"
+        "name": "Pergolas et systèmes vitrés",
+        "link": "/pergole-stakleni-sistemi"
       },
       {
-        "name": "Systèmes de vitrage",
-        "link": "/sistemi-ostakljivanja"
+        "name": "Clôtures et portails",
+        "link": "/ograde-i-kapije"
       },
       {
-        "name": "Façades",
-        "link": "/fasade"
-      },
-      {
-        "name": "Pergolas",
-        "link": "/pergole"
-      },
-      {
-        "name": "Systèmes coulissants",
-        "link": "/klizni-sistemi"
-      },
-      {
-        "name": "Portes de garage",
-        "link": "/garazna-vrata"
-      },
-      {
-        "name": "Garde-corps et rampes",
-        "link": "/ograde-i-gelenderi"
-      },
-      {
-        "name": "Accessoires complémentaires",
-        "link": "/prateca-oprema"
+        "name": "Usinage CNC et structures métalliques",
+        "link": "/cnc-obrada"
       }
     ],
     "linx": [
@@ -809,7 +1164,10 @@
       }
     ],
     "jezik": "Langue",
-    "kontakt": "Contact"
+    "kontakt": "Contact",
+    "meni": "Menu",
+    "stranice": "Pages",
+    "proizvodi": "Produits"
     
   }
 }

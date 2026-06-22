@@ -1,5 +1,86 @@
 {
   "Home": {
+    "hero": {
+      "tagline": "Wir planen. Wir fertigen. Wir montieren.",
+      "titleLead": "Seit über 25 Jahren bauen wir",
+      "titleAccent": "Qualität.",
+      "subtitle": "Wir planen, fertigen und montieren ALU- und PVC-Fenster und -Türen, Pergolen, Zäune und Stahlkonstruktionen — mit moderner CNC-Technologie und europäischen Standards.",
+      "ctaPrimary": "Produkte ansehen",
+      "ctaSecondary": "Kontaktieren Sie uns"
+    },
+    "heroStats": [
+      { "value": 25, "suffix": "+", "label": "Jahre Erfahrung" },
+      { "value": 2000, "suffix": "m²", "label": "Produktionsfläche" },
+      { "value": 5000, "suffix": "+", "label": "Realisierte Projekte" },
+      { "text": "Serbien und Europa", "label": "Realisierte Projekte" }
+    ],
+    "categoriesSection": {
+      "eyebrow": "Unser Sortiment",
+      "title": "Unsere Kategorien",
+      "subtitle": "Komplettes Lösungsprogramm — von Fenstern und Türen bis zu Stahlkonstruktionen, alles aus eigener Fertigung.",
+      "cardCta": "Mehr erfahren"
+    },
+    "categoryCards": [
+      {
+        "title": "PVC- und ALU-Fenster und -Türen",
+        "description": "Wärme für Ihr Zuhause und Energieeffizienz bis ins Detail.",
+        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Schiebesysteme"]
+      },
+      {
+        "title": "Pergolen und Glassysteme",
+        "description": "Perfekter Komfort und Schutz zu jeder Jahreszeit.",
+        "subcategories": ["Bioklimatische Pergola TP 160", "Textilpergola TP-TEXTILE", "Glassysteme für Terrassen", "ZIP-Screen-Systeme"]
+      },
+      {
+        "title": "Zäune und Tore",
+        "description": "Moderne Lösungen für Sicherheit, Privatsphäre und Ästhetik.",
+        "subcategories": ["ALU-Zäune", "Stahlzäune CNC-Laser", "Schiebetore CNC-Laser + Automatik"]
+      },
+      {
+        "title": "CNC-Bearbeitung und Stahlkonstruktionen",
+        "description": "Moderne Technologie, präzise Fertigung, hervorragende Ergebnisse.",
+        "subcategories": ["Schlosserarbeiten und Stahlkonstruktionen", "Faserlaserschneiden", "Laserschweißen", "CNC-Blechbiegen"]
+      }
+    ],
+    "why": {
+      "eyebrow": "Unsere Vorteile",
+      "title": "Warum Tehnoplast?",
+      "subtitle": "Präzise. Zuverlässig. Hochwertig. — das Prinzip, nach dem wir seit über zweieinhalb Jahrzehnten arbeiten.",
+      "items": [
+        { "title": "Eigene Produktion", "text": "Vollständige Qualitätskontrolle vom Rohstoff bis zum Endprodukt." },
+        { "title": "Maßgeschneiderte Planung", "text": "3D-Planung und technische Lösungen, abgestimmt auf Ihre Bedürfnisse." },
+        { "title": "Erstklassige Ausstattung", "text": "Moderne CNC-Maschinen und Faserlasertechnologie." },
+        { "title": "Professionelle Montage", "text": "Schnelle, sichere und fachgerechte Montage vor Ort." },
+        { "title": "Qualitätsgarantie", "text": "Europäische Qualitätsstandards bis ins Detail." },
+        { "title": "Schneller Support", "text": "Wir sind für Sie da — vor, während und nach der Montage." }
+      ]
+    },
+    "process": {
+      "eyebrow": "Wie wir arbeiten",
+      "title": "Von der Idee zum fertigen Produkt",
+      "subtitle": "Vom ersten Kontakt bis zur Montage — ein klarer Prozess aus einer Hand, ohne Subunternehmer.",
+      "steps": [
+        { "title": "Idee und Konzept", "text": "Wir hören auf Ihre Bedürfnisse und definieren gemeinsam Konzept, Materialien und Lösungsweg." },
+        { "title": "3D-Planung", "text": "Wir erstellen ein präzises 3D-Modell und die technische Dokumentation vor jeder Fertigung." },
+        { "title": "CNC-Vorbereitung", "text": "Wir programmieren die Maschinen und bereiten das Material für präzisen Zuschnitt und Bearbeitung vor." },
+        { "title": "Schweißen", "text": "Wir verbinden die Elemente nach höchsten Standards, mit Kontrolle jeder Schweißnaht." },
+        { "title": "Schutz und Lackierung", "text": "Wir pulverbeschichten und schützen die Oberflächen für Langlebigkeit und ein makelloses Finish." },
+        { "title": "Transport und Montage", "text": "Wir liefern sicher und montieren fachgerecht vor Ort, pünktlich." }
+      ]
+    },
+    "references": {
+      "eyebrow": "Referenzen",
+      "count": "5000+",
+      "countLabel": "Realisierte Projekte",
+      "title": "Realisierte Projekte in ganz Serbien und Europa",
+      "subtitle": "Mehr als 5000 erfolgreich realisierte Projekte — von Privathäusern bis zu Industriekomplexen.",
+      "locations": ["Beograd", "Novi Sad", "Niš", "Kragujevac", "Šabac", "Zlatibor", "Kopaonik", "Vrnjačka Banja"]
+    },
+    "ctaBanner": {
+      "title": "Von der Idee zum fertigen Produkt.",
+      "subtitle": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung.",
+      "button": "Kontaktieren Sie uns"
+    },
     "mainTitle": "Komplettlösung für die Herstellung und den Einbau von PVC- und ALU-Fenstern und -Türen",
     "mainSubtitle": "Tehnoplast ist auf Design, Herstellung und Einbau von PVC- und ALU-Fenstern und -Türen spezialisiert und bietet qualitativ hochwertige Lösungen für Wohn- und Geschäftsbereiche in ganz Europa.",
     "heading1": "Kompromisslose Verarbeitung",
@@ -513,6 +594,20 @@
   },
 
   "Kontakt": {
+    "contact": {
+      "heroTitle": "Sprechen wir darüber.",
+      "formLabel": "Anfrage senden",
+      "formTitle": "Sagen Sie uns, was Sie brauchen.",
+      "name": "Vor- und Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "directLabel": "Direkter Kontakt",
+      "officesLabel": "Standorte",
+      "officesTitle": "Unsere Büros",
+      "formNote": "Wir antworten innerhalb von 24 Stunden an Werktagen."
+    },
     "mainTitle": "Tehnoplast Kontakt",
     "mainSubtitle": "Tehnoplast ist auf die Planung, Herstellung und Montage von PVC- und Aluminium-Fenstern und -Türen spezialisiert und bietet hochwertige Lösungen für Wohn- und Geschäftsräume in ganz Europa.",
     "heading1": "Kompromisslose Verarbeitung",
@@ -583,6 +678,17 @@
   },
 
   "O-nama": {
+    "about": {
+      "eyebrow": "Über uns",
+      "heroTitle": "25 Jahre Präzision, in jedes Detail eingebaut.",
+      "storyLabel": "Unsere Geschichte",
+      "statsLabel": "In Zahlen",
+      "statsTitle": "Zahlen hinter der Qualität",
+      "capabilitiesLabel": "Was wir fertigen",
+      "capabilitiesTitle": "Komplettes Programm, alles aus einer Hand.",
+      "officesLabel": "Standorte",
+      "officesTitle": "Für Sie da, in Ihrer Nähe."
+    },
     "mainTitle": "Tehnoplast PVC- und ALU-Tischlerei.",
     "mainSubtitle": "Tehnoplast ist auf die Planung, Herstellung und Montage von PVC- und Aluminium-Tischlerei spezialisiert und bietet qualitativ hochwertige Lösungen für Wohn- und Geschäftsbereiche in ganz Europa.",
     "heading1": "In ganz Europa",
@@ -763,43 +869,292 @@
     ]
   },
 
+  "PvcAlu": {
+    "eyebrow": "Kategorie — 01",
+    "title": "PVC- und ALU-Fenster und -Türen",
+    "subtitle": "Wärme für Ihr Zuhause und Energieeffizienz bis ins Detail. Von hochdämmenden PVC-Systemen bis zu Aluminiumprofilen für große Glasflächen — ein komplettes Programm an Fenstern, Türen und Schiebesystemen aus eigener Fertigung.",
+    "specsLabel": "Spezifikationen",
+    "featuresLabel": "Merkmale",
+    "image": "Bild",
+    "subcategories": [
+      {
+        "name": "Decco 83 PVC",
+        "kind": "PVC-System",
+        "specs": [
+          { "label": "Bautiefe", "value": "83 mm" },
+          { "label": "Verglasung", "value": "bis 52 mm" },
+          { "label": "Kammern", "value": "7" },
+          { "label": "Dichtungen", "value": "3" },
+          { "label": "Uw-Wert", "value": "bis 0,76 W/m²K" },
+          { "label": "Schallschutz", "value": "bis 47 dB" }
+        ],
+        "features": ["100% recycelbare Profile", "Umweltfreundlich", "Modernes Design", "Große Auswahl an Farben und Dekoren"]
+      },
+      {
+        "name": "Schüco LIVIng82 PVC",
+        "kind": "PVC-System",
+        "specs": [
+          { "label": "Bautiefe", "value": "82 mm" },
+          { "label": "System", "value": "7-Kammer" },
+          { "label": "Dichtung", "value": "Dreifach" },
+          { "label": "Uw-Wert", "value": "bis 0,74 W/m²K" }
+        ],
+        "features": ["Große Abmessungen möglich", "Maximale Stabilität und Langlebigkeit", "Große Auswahl an Farben und Oberflächen"]
+      },
+      {
+        "name": "Elvial W59 SI² ALU",
+        "kind": "ALU-System",
+        "specs": [
+          { "label": "Rahmentiefe", "value": "59 mm" },
+          { "label": "Flügeltiefe", "value": "68 mm" },
+          { "label": "Thermische Trennung", "value": "24 mm" },
+          { "label": "Uf-Wert", "value": "bis 1,8 W/m²K" },
+          { "label": "Uw-Wert", "value": "bis 0,9 W/m²K" },
+          { "label": "Schallschutz", "value": "bis 45 dB" },
+          { "label": "Schlagregendichtheit", "value": "E1050" },
+          { "label": "Windlast", "value": "C5" }
+        ],
+        "features": ["In allen RAL-Farben erhältlich"]
+      },
+      {
+        "name": "Schüco AWS 75.SI ALU",
+        "kind": "ALU-System",
+        "specs": [
+          { "label": "Rahmentiefe", "value": "75 mm" },
+          { "label": "Flügeltiefe", "value": "84 mm" },
+          { "label": "Uf-Wert", "value": "bis 1,3 W/m²K" },
+          { "label": "Uw-Wert", "value": "bis 0,8 W/m²K" },
+          { "label": "Schallschutz", "value": "bis 47 dB" },
+          { "label": "Windlast", "value": "C5/B5" },
+          { "label": "Schlagregendichtheit", "value": "9A" },
+          { "label": "Verglasung", "value": "Dreifach bis 54 mm" }
+        ],
+        "features": ["In allen RAL-Farben erhältlich"]
+      },
+      {
+        "name": "HST Hebe-Schiebe-Systeme",
+        "kind": "Hebe-Schiebe-System",
+        "specs": [
+          { "label": "Flügelbreite", "value": "bis 6,5 m" },
+          { "label": "Flügelgewicht", "value": "bis 400 kg" },
+          { "label": "Uw-Wert", "value": "bis 0,73 W/m²K" },
+          { "label": "Schallschutz", "value": "bis 45 dB" },
+          { "label": "Kammern (Rahmen)", "value": "5" },
+          { "label": "Kammern (Flügel)", "value": "7" },
+          { "label": "Bautiefe", "value": "83 mm" }
+        ],
+        "features": ["Niedrige Schwelle", "Mehrfachverriegelung"]
+      }
+    ]
+  },
+
+  "PergoleStakleni": {
+    "eyebrow": "Kategorie — 02",
+    "title": "Pergolen und Glassysteme",
+    "subtitle": "Perfekter Komfort und Schutz zu jeder Jahreszeit. Bioklimatische und Textil-Pergolen, gläserne Schiebesysteme und ZIP-Screen-Lösungen — für Terrassen, Gärten und Außenbereiche, die das ganze Jahr über nutzbar sind.",
+    "specsLabel": "Spezifikationen",
+    "featuresLabel": "Merkmale",
+    "image": "Bild",
+    "subcategories": [
+      {
+        "name": "Bioklimatische Pergola TP 160",
+        "kind": "Bioklimatische Pergola",
+        "specs": [
+          { "label": "Lamellen", "value": "Drehbar 0°–135°" },
+          { "label": "Konstruktion", "value": "Aluminium" },
+          { "label": "Lamellenmaterial", "value": "Stranggepresstes Aluminium" },
+          { "label": "Wasserableitung", "value": "Integriertes System" },
+          { "label": "Beleuchtung", "value": "Integriertes LED" },
+          { "label": "Steuerung", "value": "Fernbedienung" }
+        ],
+        "features": ["Verdeckte Verbindungen", "Modulkopplung möglich", "Schutz vor Sonne, Regen und Wind", "Natürliche Belüftung", "In allen RAL-Farben erhältlich"]
+      },
+      {
+        "name": "Textil-Pergola TP-TEXTILE",
+        "kind": "Textil-Pergola",
+        "specs": [
+          { "label": "Konstruktion", "value": "Aluminium" },
+          { "label": "Bespannung", "value": "Bewegliches Textil" },
+          { "label": "Neigung", "value": "Einseitig" },
+          { "label": "Max. Abmessung", "value": "600 × 500 cm" },
+          { "label": "Wasserableitung", "value": "Integrierte Abläufe" },
+          { "label": "Windlast", "value": "bis 100 km/h" },
+          { "label": "Beleuchtung", "value": "Integriertes LED" },
+          { "label": "Steuerung", "value": "Fernbedienung + Sensoren" }
+        ],
+        "features": ["Verdeckte Verbindungen", "Modulkopplung möglich", "Automatische Sensoren"]
+      },
+      {
+        "name": "Glassysteme",
+        "kind": "Glassystem",
+        "specs": [
+          { "label": "System", "value": "Schiebend, ohne vertikale Profile" },
+          { "label": "Glas", "value": "ESG-Sicherheitsglas 8–10 mm" },
+          { "label": "Max. Höhe", "value": "2800 mm" },
+          { "label": "Profile", "value": "Diskret oben und unten" },
+          { "label": "Verriegelung", "value": "Möglich" },
+          { "label": "Öffnung", "value": "Teilweise oder vollständig" }
+        ],
+        "features": ["Montage auf bestehende Konstruktionen", "Schutz vor Wind, Regen und Lärm", "Maximaler Tageslichteinfall"]
+      },
+      {
+        "name": "ZIP-Screen-Systeme",
+        "kind": "ZIP Screen",
+        "specs": [
+          { "label": "Kasten und Führungen", "value": "Aluminium" },
+          { "label": "Gewebe", "value": "Hochdichtes Screen" },
+          { "label": "Technologie", "value": "ZIP" },
+          { "label": "Max. Abmessung", "value": "600 × 300 cm" },
+          { "label": "Transparenz", "value": "Mehrere Stufen" },
+          { "label": "Wasserableitung", "value": "Integriert" },
+          { "label": "Windlast", "value": "bis 100 km/h" },
+          { "label": "Steuerung", "value": "Fernbedienung + Sensoren" }
+        ],
+        "features": ["Schutz vor Sonne, UV, Wind und Insekten", "In allen RAL-Farben erhältlich"]
+      }
+    ]
+  },
+
+  "OgradeKapije": {
+    "eyebrow": "Kategorie — 03",
+    "title": "Zäune und Tore",
+    "subtitle": "Moderne Lösungen für Sicherheit, Privatsphäre und Ästhetik. Aluminium- und Stahlzäune mit CNC-lasergeschnittenen Füllungen und automatische Schiebetore — maßgefertigt für jedes Objekt.",
+    "specsLabel": "Spezifikationen",
+    "featuresLabel": "Merkmale",
+    "image": "Bild",
+    "subcategories": [
+      {
+        "name": "ALU-Zäune",
+        "kind": "Aluminiumzaun",
+        "specs": [
+          { "label": "Lamellen", "value": "Horizontale Aluminiumlamellen" },
+          { "label": "Modelle", "value": "3 (horizontal, schräg 45°, kombiniert)" },
+          { "label": "Max. Feldgröße", "value": "2500 mm" },
+          { "label": "Höhe", "value": "Nach Maß" },
+          { "label": "Oberfläche", "value": "Eloxiert oder pulverbeschichtet" },
+          { "label": "Beliebteste Farbe", "value": "RAL 7016 Anthrazitgrau" }
+        ],
+        "features": ["Kombinierbar mit Wandelementen und Glas", "Einfache Montage", "Wartungsfreie Langlebigkeit", "In allen RAL-Farben erhältlich"]
+      },
+      {
+        "name": "Stahlzäune CNC-Laser",
+        "kind": "Stahlzaun",
+        "specs": [
+          { "label": "Rahmenprofil", "value": "60 × 40 mm" },
+          { "label": "Füllungen", "value": "Stahl 2 mm" },
+          { "label": "Modelle", "value": "6 (CNC-lasergeschnitten)" },
+          { "label": "Unterkonstruktion", "value": "Verzinkt" },
+          { "label": "Bearbeitung", "value": "Pulverbeschichtung + thermisch" },
+          { "label": "Montage", "value": "An Wand oder Pfosten" }
+        ],
+        "features": ["Maßanfertigung", "Kombination mit Vollpaneelen", "Korrosionsschutz", "Farben: RAL 7016, 9005, 9006, 7012"]
+      },
+      {
+        "name": "Schiebetore CNC-Laser + Automatik",
+        "kind": "Schiebetor",
+        "specs": [
+          { "label": "Rahmenprofil", "value": "80 × 60 mm" },
+          { "label": "Füllungen", "value": "Stahl 2 mm" },
+          { "label": "Modelle", "value": "6 (CNC-lasergeschnitten)" },
+          { "label": "Konstruktion", "value": "Selbsttragend, ohne Bodenschiene" },
+          { "label": "Unterkonstruktion", "value": "Verzinkt" },
+          { "label": "Automatik", "value": "NICE / BFT / CAME" },
+          { "label": "Steuerung", "value": "Fernbedienung" },
+          { "label": "Montage", "value": "An Wand oder Pfosten" }
+        ],
+        "features": ["Sicheres System mit Lichtschranken", "Leiser Betrieb und lange Lebensdauer", "In allen RAL-Farben erhältlich"]
+      }
+    ]
+  },
+
+  "Cnc": {
+    "eyebrow": "Kategorie — 04",
+    "title": "CNC-Bearbeitung und Stahlkonstruktionen",
+    "subtitle": "Der eindrucksvollste Teil unserer Produktion: Faserlaser, Laserschweißen, CNC-Biegen und Stahlkonstruktionen. Dort, wo Präzision in Zehntelmillimetern und Stärke in Tonnen gemessen wird.",
+    "video": "Video",
+    "image": "Bild",
+    "statsLabel": "In Zahlen",
+    "stats": [
+      { "value": 24, "suffix": "+", "label": "Jahre Erfahrung" },
+      { "value": 5000, "suffix": "+", "label": "Realisierte Projekte" },
+      { "value": 2000, "suffix": "m²", "label": "Produktionshalle" },
+      { "value": 30, "suffix": "+", "label": "Mitarbeiter" }
+    ],
+    "processLabel": "Prozess",
+    "processTitle": "Von der Idee zur Umsetzung.",
+    "processSubtitle": "Sechs Schritte, alles unter einem Dach — von der ersten Zeichnung bis zur Montage vor Ort.",
+    "capabilitiesLabel": "Möglichkeiten",
+    "capabilitiesTitle": "Vier Technologien, eine Halle.",
+    "specsLabel": "Spezifikationen",
+    "featuresLabel": "Merkmale",
+    "subcategories": [
+      {
+        "name": "Schlosserarbeiten und Stahlkonstruktionen",
+        "kind": "Schlosserei & Konstruktionen",
+        "media": "image",
+        "specs": [
+          { "label": "Planung", "value": "Maßgefertigt, 3D + Dokumentation" },
+          { "label": "Vorbereitung", "value": "CNC" },
+          { "label": "Schneiden und Schweißen", "value": "Laser, MIG/MAG" },
+          { "label": "Montage", "value": "Vor Ort" }
+        ],
+        "features": ["Stahlüberdachungen", "Treppen (Glas / Metallgeländer)", "Stahlgalerien", "Hallenkonstruktionen", "Dekorative Metallelemente", "Tore und Zäune", "Kombination Stahl / Glas / Holz", "Träger, Stützen und Tragelemente"]
+      },
+      {
+        "name": "Faserlaserschneiden",
+        "kind": "Faserlaser",
+        "media": "video",
+        "specs": [
+          { "label": "Tischformat", "value": "3000 × 1500 mm" },
+          { "label": "Baustahl", "value": "bis 25 mm" },
+          { "label": "Edelstahl", "value": "bis 20 mm" },
+          { "label": "Aluminium", "value": "bis 15 mm" }
+        ],
+        "features": ["Hohe Geschwindigkeit und Präzision", "Perfekte Kante ohne Nacharbeit", "Materialoptimierung, minimaler Verschnitt"]
+      },
+      {
+        "name": "Laserschweißen",
+        "kind": "Laserschweißen",
+        "media": "video",
+        "specs": [
+          { "label": "Verbindung", "value": "Präzise und sauber" },
+          { "label": "Wärmezone", "value": "Minimal" },
+          { "label": "Materialien", "value": "Edelstahl / Aluminium / Stahl" }
+        ],
+        "features": ["Ohne Spritzer und Verformungen", "Hohe Festigkeit und ästhetische Naht", "Geeignet für dünne und anspruchsvolle Materialien"]
+      },
+      {
+        "name": "CNC-Blechbiegen",
+        "kind": "CNC-Biegen",
+        "media": "video",
+        "specs": [
+          { "label": "Presse", "value": "3200 mm" },
+          { "label": "Stahl", "value": "bis 10 mm" },
+          { "label": "Edelstahl", "value": "bis 6 mm" },
+          { "label": "Aluminium", "value": "bis 8 mm" }
+        ],
+        "features": ["Hohe Präzision und Wiederholgenauigkeit", "Komplexe und anspruchsvolle Formen"]
+      }
+    ]
+  },
+
   "Menu": {
     "products": [
       {
-        "name": "Fenster",
-        "link": "/prozori"
+        "name": "PVC- und ALU-Fenster und -Türen",
+        "link": "/pvc-alu-stolarija"
       },
       {
-        "name": "Türen",
-        "link": "/vrata"
+        "name": "Pergolen und Glassysteme",
+        "link": "/pergole-stakleni-sistemi"
       },
       {
-        "name": "Verglasungssysteme",
-        "link": "/sistemi-ostakljivanja"
+        "name": "Zäune und Tore",
+        "link": "/ograde-i-kapije"
       },
       {
-        "name": "Fassaden",
-        "link": "/fasade"
-      },
-      {
-        "name": "Pergolen",
-        "link": "/pergole"
-      },
-      {
-        "name": "Schiebesysteme",
-        "link": "/klizni-sistemi"
-      },
-      {
-        "name": "Garagentore",
-        "link": "/garazna-vrata"
-      },
-      {
-        "name": "Zäune und Geländer",
-        "link": "/ograde-i-gelenderi"
-      },
-      {
-        "name": "Zubehör",
-        "link": "/prateca-oprema"
+        "name": "CNC-Bearbeitung und Stahlkonstruktionen",
+        "link": "/cnc-obrada"
       }
     ],
     "linx": [
@@ -817,7 +1172,10 @@
       }
     ],
     "jezik": "Sprache",
-    "kontakt": "Kontakt"
+    "kontakt": "Kontakt",
+    "meni": "Menü",
+    "stranice": "Seiten",
+    "proizvodi": "Produkte"
     
   }
 }

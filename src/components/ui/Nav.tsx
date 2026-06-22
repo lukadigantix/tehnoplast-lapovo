@@ -1,43 +1,42 @@
 "use client";
 import React from "react";
-
-import Image from "next/image";
+import { Link } from "@/navigation";
 import Hamburger from "hamburger-react";
 
 interface NavProps {
   open: boolean;
   setOpen: (open: boolean) => void;
-  color:string
+  color: string;
 }
 
-const Nav: React.FC<NavProps> = ({ open, setOpen, color }) => {
+const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
   return (
     <nav>
-      <div className="wrapper h-fit absolute top-0 left-0 w-full">
-        <div className="w-[150px] h-[50px] absolute top-4 left-[4%] md:w-[200px] md:h-[90px] md:top-[0.6rem]">
-          <Image
-            src={color === 'white' ? "/images/tehnoplast-logo.png" : "/images/tehnoplast-logo-dark.png"}
-            // ovo ce doci iz drugog fajla kada budem radio SEO
-            alt={"Tehnoplast Lapovo, PVC i ALU stolarija Srbija"}
-            fill
-            sizes="300px"
-            
-            style={{objectFit: "contain"}}
-          />
-        </div>
+      {/* Fixed wordmark — mirrors the menu button (always visible while
+          scrolling, links home). mix-blend-difference keeps it legible over
+          both the dark and the light sections. Placeholder until the real
+          logo asset is provided. */}
+      <Link
+        href="/"
+        aria-label="Tehnoplast — početna"
+        onClick={() => setOpen(false)}
+        className="fixed left-[4%] top-[1.2rem] z-[110] flex h-[50px] items-center text-[1.45rem] font-black uppercase tracking-tight text-white mix-blend-difference transition-opacity duration-200 hover:opacity-70 md:h-[75px] md:text-[1.7rem]"
+      >
+        Tehnoplast
+      </Link>
 
-        <div
-          className="fixed top-[1.2rem] right-[4%] w-[50px] h-[50px] bg-[#e5853b9c] rounded-full outline-none transition-background duration-500 ease-in-out z-[110] grid place-content-center cursor-pointer hover:bg-[#e5853be3] md:w-[75px] md:h-[75px]"
-          onClick={() => setOpen(!open)}
-        >
-          <Hamburger
-            toggled={open}
-            toggle={() => setOpen(!open)}
-            size={22}
-            hideOutline={false}
-            color="#fff"
-          />
-        </div>
+      {/* Menu button */}
+      <div
+        className="fixed right-[4%] top-[1.2rem] z-[110] grid h-[50px] w-[50px] cursor-pointer place-content-center rounded-full bg-[#e5853b9c] outline-none transition-colors duration-500 ease-in-out hover:bg-[#e5853be3] md:h-[75px] md:w-[75px]"
+        onClick={() => setOpen(!open)}
+      >
+        <Hamburger
+          toggled={open}
+          toggle={() => setOpen(!open)}
+          size={22}
+          hideOutline={false}
+          color="#fff"
+        />
       </div>
     </nav>
   );

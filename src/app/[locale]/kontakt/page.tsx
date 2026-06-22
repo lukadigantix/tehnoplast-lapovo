@@ -1,32 +1,20 @@
+import "leaflet/dist/leaflet.css";
 import MainLayout from "@/components/layout/MainLayout";
-import CategoryHero from "@/components/ui/CategoryHero";
-import Overview from "@/components/ui/Overview";
-import { useTranslations } from "next-intl";
+import ContactHero from "@/components/ui/contact/ContactHero";
+import ContactForm from "@/components/ui/contact/ContactForm";
+import ContactOffices from "@/components/ui/contact/ContactOffices";
+import ContactMap from "@/components/ui/contact/ContactMap";
 
+// Redesigned Contact page on the homepage design system: dark hero with direct
+// contact, an inquiry form (mailto), the offices grid and a full-bleed map.
 export default function Kontakt() {
-  const t = useTranslations("Kontakt");
-  const kontakt = t.raw("kontakt");
   return (
     <MainLayout color="white">
       <main>
-        <CategoryHero
-          heading={t("mainTitle")}
-          description={t("mainSubtitle")}
-          image="/images/hero/kontakt.jpg"
-          color="#fff"
-        />
-
-        <Overview
-          accord={true}
-          accordData={kontakt}
-          title={t('heading1')}
-          subtitle={t('subheading1')}
-          text={t('btnTitle')}
-          btnText="Kontakt"
-          link="link"
-          btn={false}
-          showLink={false}
-        />
+        <ContactHero />
+        <ContactForm />
+        <ContactOffices />
+        <ContactMap />
       </main>
     </MainLayout>
   );
