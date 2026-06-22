@@ -137,11 +137,11 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
                       i < products.length - 1 ? "border-b border-white/10" : ""
                     }`}
                   >
-                    <span className="flex min-w-0 items-start gap-4 overflow-hidden">
+                    <span className="flex min-w-0 items-start gap-4 pr-2">
                       <span className="mt-2 text-[0.72rem] font-black tabular-nums text-white/25 transition-colors duration-200 group-hover:text-[#e87722] md:text-[0.8rem]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
-                      <span className="min-w-0 break-words text-[1.6rem] font-black uppercase leading-[1.08] tracking-tight transition-all duration-300 group-hover:translate-x-2 group-hover:text-[#e87722] md:text-[2.1rem]">
+                      <span className="min-w-0 break-words pr-[0.12em] text-[1.6rem] font-black uppercase leading-[1.08] tracking-tight transition-colors duration-300 group-hover:text-[#e87722] md:text-[2.1rem]">
                         {product.name}
                       </span>
                     </span>
