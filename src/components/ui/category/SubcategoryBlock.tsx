@@ -21,6 +21,7 @@ interface SubcategoryBlockProps {
   theme: "dark" | "light";
   imageSide: "left" | "right";
   labels: { specs: string; features: string; image: string };
+  image?: string;
 }
 
 const reveal = {
@@ -38,6 +39,7 @@ const SubcategoryBlock: React.FC<SubcategoryBlockProps> = ({
   theme,
   imageSide,
   labels,
+  image,
 }) => {
   const dark = theme === "dark";
   const sectionCls = dark ? "bg-[#111] text-white" : "bg-[#f4f2ef] text-[#111]";
@@ -49,11 +51,20 @@ const SubcategoryBlock: React.FC<SubcategoryBlockProps> = ({
     <section className={`${sectionCls} py-24 md:py-32`}>
       <div className="wrapper grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <motion.div {...reveal} className={imageSide === "right" ? "lg:order-2" : ""}>
-          <ImagePlaceholder
-            label={labels.image}
-            theme={theme}
-            className="aspect-[4/3] w-full"
-          />
+          {image ? (
+            <img
+              src={image}
+              alt={sub.name}
+              loading="lazy"
+              className="aspect-[4/3] w-full object-cover"
+            />
+          ) : (
+            <ImagePlaceholder
+              label={labels.image}
+              theme={theme}
+              className="aspect-[4/3] w-full"
+            />
+          )}
         </motion.div>
 
         <motion.div

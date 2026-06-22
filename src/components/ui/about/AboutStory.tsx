@@ -17,24 +17,24 @@ const AboutStory: React.FC = () => {
           theme="light"
         />
 
-        <div className="mt-14 grid gap-x-12 gap-y-12 lg:grid-cols-12">
-          <div className="lg:col-span-7">
-            <p className="text-[1.7rem] font-black uppercase leading-[1.1] tracking-tight md:text-[2.2rem]">
-              <span className="text-[#e87722]">“</span>
-              Precizno. Pouzdano. Kvalitetno.
-              <span className="text-[#e87722]">”</span>
-            </p>
-            <p className="mt-8 max-w-[60ch] text-[1rem] leading-relaxed text-black/60">
-              {t("subheading2")}
-            </p>
-          </div>
+        <div className="mt-14 grid gap-x-12 gap-y-6 lg:grid-cols-12">
+          {/* Headline row — pull-quote and aside label share a baseline */}
+          <p className="self-end text-[1.7rem] font-black uppercase leading-[1.1] tracking-tight md:text-[2.2rem] lg:col-span-7 lg:row-start-1">
+            <span className="text-[#e87722]">“</span>
+            Precizno. Pouzdano. Kvalitetno.
+            <span className="text-[#e87722]">”</span>
+          </p>
+          <h3 className="self-end text-[1.3rem] font-black uppercase leading-[1.05] tracking-tight md:text-[1.6rem] lg:col-span-4 lg:col-start-9 lg:row-start-1">
+            {t("heading1")}
+          </h3>
 
-          <div className="lg:col-span-4 lg:col-start-9">
-            <div className="mb-8 h-px w-full bg-black/15" />
-            <p className="text-[1rem] leading-relaxed text-black/60">
-              {t("subheading1")}
-            </p>
-          </div>
+          {/* Body row — both paragraphs align on one baseline */}
+          <p className="max-w-[60ch] border-t border-black/15 pt-6 text-[1rem] leading-relaxed text-black/60 lg:col-span-7 lg:row-start-2">
+            {t("subheading2")}
+          </p>
+          <p className="border-t border-black/15 pt-6 text-[1rem] leading-relaxed text-black/60 lg:col-span-4 lg:col-start-9 lg:row-start-2">
+            {t("subheading1")}
+          </p>
         </div>
       </div>
     </section>

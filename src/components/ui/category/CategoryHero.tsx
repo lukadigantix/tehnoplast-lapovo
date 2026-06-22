@@ -7,11 +7,12 @@ type LinkItem = { name: string; link: string };
 
 interface CategoryHeroProps {
   namespace: string;
+  image?: string;
 }
 
 // Category hero — dark, with a breadcrumb, big title, intro and a wide image
 // placeholder. Reads the given category namespace.
-const CategoryHero: React.FC<CategoryHeroProps> = ({ namespace }) => {
+const CategoryHero: React.FC<CategoryHeroProps> = ({ namespace, image }) => {
   const t = useTranslations(namespace);
   const tMenu = useTranslations("Menu");
   const pages = tMenu.raw("linx") as LinkItem[];
@@ -50,11 +51,20 @@ const CategoryHero: React.FC<CategoryHeroProps> = ({ namespace }) => {
         </p>
 
         <div className="mt-14">
-          <ImagePlaceholder
-            label={t("image")}
-            theme="dark"
-            className="aspect-[21/9] w-full"
-          />
+          {image ? (
+            <img
+              src={image}
+              alt={t("title")}
+              loading="lazy"
+              className="aspect-[21/9] w-full object-cover"
+            />
+          ) : (
+            <ImagePlaceholder
+              label={t("image")}
+              theme="dark"
+              className="aspect-[21/9] w-full"
+            />
+          )}
         </div>
       </div>
     </section>

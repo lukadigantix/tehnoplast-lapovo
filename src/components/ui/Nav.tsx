@@ -12,17 +12,19 @@ interface NavProps {
 const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
   return (
     <nav>
-      {/* Fixed wordmark — mirrors the menu button (always visible while
-          scrolling, links home). mix-blend-difference keeps it legible over
-          both the dark and the light sections. Placeholder until the real
-          logo asset is provided. */}
+      {/* Fixed logo — mirrors the menu button (always visible while scrolling,
+          links home). Full-colour logo. */}
       <Link
         href="/"
         aria-label="Tehnoplast — početna"
         onClick={() => setOpen(false)}
-        className="fixed left-[4%] top-[1.2rem] z-[110] flex h-[50px] items-center text-[1.45rem] font-black uppercase tracking-tight text-white mix-blend-difference transition-opacity duration-200 hover:opacity-70 md:h-[75px] md:text-[1.7rem]"
+        className="fixed left-[4%] top-[1.2rem] z-[110] flex h-[50px] items-center transition-opacity duration-200 hover:opacity-70 md:h-[75px]"
       >
-        Tehnoplast
+        <img
+          src="/images/tehnoplast-logo.png"
+          alt="Tehnoplast"
+          className="h-[38px] w-auto md:h-[48px]"
+        />
       </Link>
 
       {/* Menu button */}

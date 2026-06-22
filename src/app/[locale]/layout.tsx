@@ -5,6 +5,7 @@ import { ReactNode } from "react";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { ZoomProvider } from "@/context/ZoomContext";
+import PageTransition from "@/components/ui/PageTransition";
 
 const latoFont = Lato({
   variable: "--font-lato",
@@ -26,7 +27,10 @@ export default async function RootLayout({
     <NextIntlClientProvider messages={messages}>
       <ZoomProvider>
         <html lang="en">
-          <body className={`${latoFont.variable} antialiased`}>{children}</body>
+          <body className={`${latoFont.variable} antialiased`}>
+            <PageTransition />
+            {children}
+          </body>
         </html>
       </ZoomProvider>
     </NextIntlClientProvider>

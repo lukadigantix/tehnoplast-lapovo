@@ -104,7 +104,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
               <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30">
                 {t("stranice")}
               </p>
-              <div className="flex flex-wrap gap-x-7 gap-y-2">
+              <div className="flex flex-wrap items-center gap-x-7 gap-y-2">
                 {pages.map((page, i) => (
                   <Link
                     key={i}
@@ -115,6 +115,18 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
                     {page.name}
                   </Link>
                 ))}
+                <a
+                  href="/katalog.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setOpen(false)}
+                  className="inline-flex items-center gap-1.5 text-[0.95rem] font-bold uppercase tracking-wide text-white/70 transition-colors duration-200 hover:text-[#e87722]"
+                >
+                  {t("katalog")}
+                  <span className="text-[0.6rem] tracking-[0.2em] text-white/30">
+                    PDF
+                  </span>
+                </a>
               </div>
             </motion.div>
 

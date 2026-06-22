@@ -32,13 +32,12 @@ const CtaBanner: React.FC = () => {
         </h2>
 
         <div className="lg:col-span-4 lg:col-start-9">
-          {/* Brand wordmark (placeholder for the logo) */}
-          <div className="mb-7 flex items-center gap-3">
-            <span className="h-px w-8 bg-[#111]" />
-            <span className="text-[1.3rem] font-black uppercase tracking-tight text-[#111]">
-              Tehnoplast
-            </span>
-          </div>
+          {/* Brand logo */}
+          <img
+            src="/images/tehnoplast-logo.png"
+            alt="Tehnoplast"
+            className="mb-8 h-[43px] w-auto md:h-[53px]"
+          />
 
           <p className="mb-7 text-[1.05rem] leading-relaxed text-[#111]/80">
             {t("ctaBanner.subtitle")}

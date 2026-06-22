@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/navigation";
 import { ArrowUpRight } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
@@ -37,7 +38,7 @@ const HomeCategories: React.FC = () => {
 
         <div className="mt-16 border-t border-white/15">
           {cards.map((card, i) => (
-            <a
+            <Link
               key={i}
               href={CARD_LINKS[i] ?? "#"}
               className={`group block px-1 transition-colors duration-200 hover:bg-[#e87722] md:px-4 ${
@@ -66,7 +67,7 @@ const HomeCategories: React.FC = () => {
                   />
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

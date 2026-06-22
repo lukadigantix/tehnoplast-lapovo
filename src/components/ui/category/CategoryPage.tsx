@@ -6,12 +6,20 @@ import CtaBanner from "../home/CtaBanner";
 
 interface CategoryPageProps {
   namespace: string;
+  heroImage?: string;
+  // Photos indexed to the subcategories order; missing entries fall back to
+  // the "SLIKA" placeholder.
+  images?: string[];
 }
 
 // Shared category page body — hero + alternating system blocks (dark/paper) +
 // CTA. Driven entirely by the given message namespace, so each category route
 // is a one-liner that passes its namespace.
-const CategoryPage: React.FC<CategoryPageProps> = ({ namespace }) => {
+const CategoryPage: React.FC<CategoryPageProps> = ({
+  namespace,
+  heroImage,
+  images,
+}) => {
   const t = useTranslations(namespace);
   const subs = t.raw("subcategories") as Subcategory[];
   const labels = {
@@ -22,7 +30,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ namespace }) => {
 
   return (
     <main>
-      <CategoryHero namespace={namespace} />
+      <CategoryHero namespace={namespace} image={heroImage} />
 
       {subs.map((sub, i) => (
         <SubcategoryBlock
@@ -32,6 +40,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ namespace }) => {
           theme={i % 2 === 0 ? "light" : "dark"}
           imageSide={i % 2 === 0 ? "left" : "right"}
           labels={labels}
+          image={images?.[i]}
         />
       ))}
 
