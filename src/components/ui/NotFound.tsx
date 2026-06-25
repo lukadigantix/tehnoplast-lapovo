@@ -11,7 +11,7 @@ const NotFound: React.FC = () => {
   const t = useTranslations("NotFound");
 
   return (
-    <section className="relative flex min-h-screen items-center overflow-hidden bg-[#111] pb-24 pt-40 text-white md:pt-44">
+    <section className="relative flex min-h-svh items-center overflow-hidden bg-[#111] pb-24 pt-32 text-white md:pt-44">
       {/* Faint blueprint grid, fading out via a radial mask */}
       <div
         aria-hidden
@@ -47,7 +47,7 @@ const NotFound: React.FC = () => {
         <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:items-center">
           <Link
             href="/"
-            className="group inline-flex items-center justify-center gap-3 bg-[#e87722] px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[#111] transition-colors duration-200 hover:bg-[#ff8a2e]"
+            className="group inline-flex w-full items-center justify-center gap-3 bg-[#e87722] px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[#111] transition-colors duration-200 hover:bg-[#ff8a2e] sm:w-auto"
           >
             {t("home")}
             <ArrowRight
@@ -58,7 +58,7 @@ const NotFound: React.FC = () => {
 
           <Link
             href="/#kategorije"
-            className="group inline-flex items-center justify-center gap-3 border border-white/20 px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-200 hover:border-white/60"
+            className="group inline-flex w-full items-center justify-center gap-3 border border-white/20 px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-200 hover:border-white/60 sm:w-auto"
           >
             {t("categories")}
             <ArrowUpRight

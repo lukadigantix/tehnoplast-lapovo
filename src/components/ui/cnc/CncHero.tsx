@@ -13,7 +13,7 @@ const CncHero: React.FC = () => {
   const home = pages[0]?.name ?? "Početna";
 
   return (
-    <section className="relative overflow-hidden bg-[#111] pb-16 pt-32 text-white md:pt-36">
+    <section className="relative overflow-hidden bg-[#111] pb-16 pt-28 text-white md:pt-36">
       {/* Blueprint texture */}
       <div
         aria-hidden
@@ -29,7 +29,7 @@ const CncHero: React.FC = () => {
       />
 
       <div className="wrapper relative z-10">
-        <nav className="mb-10 flex flex-wrap items-center gap-2 text-[0.7rem] font-bold uppercase tracking-[0.22em] text-white/40">
+        <nav className="mb-8 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[0.58rem] font-bold uppercase tracking-[0.16em] text-white/40 sm:mb-10 sm:gap-2 sm:text-[0.7rem] sm:tracking-[0.22em]">
           <Link href="/" className="transition-colors duration-200 hover:text-white">
             {home}
           </Link>
@@ -49,16 +49,16 @@ const CncHero: React.FC = () => {
           {t("eyebrow")}
         </span>
 
-        <h1 className="max-w-[16ch] break-words text-[3rem] font-black uppercase leading-[0.9] tracking-tight md:text-[5.5rem] xl:text-[7rem]">
+        <h1 className="max-w-[16ch] break-words text-[2.1rem] font-black uppercase leading-[0.95] tracking-tight sm:text-[3rem] sm:leading-[0.9] md:text-[5.5rem] xl:text-[7rem]">
           {t("title")}
         </h1>
 
-        <p className="mt-8 max-w-[64ch] text-[1.1rem] leading-relaxed text-white/55">
+        <p className="mt-6 max-w-[64ch] text-[0.98rem] leading-relaxed text-white/55 sm:mt-8 sm:text-[1.1rem]">
           {t("subtitle")}
         </p>
 
         {/* Hero image */}
-        <div className="mt-16">
+        <div className="mt-10 sm:mt-16">
           <img
             src="/images/cnc/cnc-hero.webp"
             alt={t("title")}

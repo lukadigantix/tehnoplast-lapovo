@@ -86,12 +86,15 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
           exit="exit"
           className="fixed right-0 top-0 z-[100] flex h-screen w-full flex-col bg-[#111] text-white md:w-[680px] lg:w-[820px]"
         >
-          {/* Header — right side kept clear for the Nav close (X) button */}
+          {/* Header — kept clear on the left for the fixed logo (over the
+              full-width panel on mobile) and on the right for the Nav close
+              (X) button. The "MENI" eyebrow is hidden on mobile to avoid
+              colliding with the logo. */}
           <motion.div
             variants={itemVariants}
-            className="flex h-[76px] shrink-0 items-center border-b border-white/10 px-8 md:h-[110px] md:px-12"
+            className="flex h-[72px] shrink-0 items-center border-b border-white/10 px-8 md:h-[110px] md:px-12"
           >
-            <span className="flex items-center gap-3 text-[0.7rem] font-bold uppercase tracking-[0.28em] text-white/40">
+            <span className="hidden items-center gap-3 text-[0.7rem] font-bold uppercase tracking-[0.28em] text-white/40 md:flex">
               <span className="h-px w-8 bg-[#e87722]" />
               {t("meni")}
             </span>
@@ -104,7 +107,7 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
               <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30">
                 {t("stranice")}
               </p>
-              <div className="flex flex-wrap items-center gap-x-7 gap-y-2">
+              <div className="grid grid-cols-2 gap-x-4 gap-y-3.5 sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:gap-y-2">
                 {pages.map((page, i) => (
                   <Link
                     key={i}
@@ -143,24 +146,24 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
                   <Link
                     href={product.link}
                     onClick={() => setOpen(false)}
-                    className={`group flex items-start justify-between gap-4 py-5 md:py-7 ${
+                    className={`group flex items-start justify-between gap-4 py-4 sm:py-5 md:py-7 ${
                       i === 0 ? "border-t border-white/10 " : ""
                     }${
                       i < products.length - 1 ? "border-b border-white/10" : ""
                     }`}
                   >
-                    <span className="flex min-w-0 items-start gap-4 pr-2">
-                      <span className="mt-2 text-[0.72rem] font-black tabular-nums text-white/25 transition-colors duration-200 group-hover:text-[#e87722] md:text-[0.8rem]">
+                    <span className="flex min-w-0 items-start gap-3 pr-2 sm:gap-4">
+                      <span className="mt-1.5 text-[0.7rem] font-black tabular-nums text-white/25 transition-colors duration-200 group-hover:text-[#e87722] sm:mt-2 md:text-[0.8rem]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
-                      <span className="min-w-0 break-words pr-[0.12em] text-[1.6rem] font-black uppercase leading-[1.08] tracking-tight transition-colors duration-300 group-hover:text-[#e87722] md:text-[2.1rem]">
+                      <span className="min-w-0 break-words pr-[0.12em] text-[1.3rem] font-black uppercase leading-[1.1] tracking-tight transition-colors duration-300 group-hover:text-[#e87722] sm:text-[1.6rem] sm:leading-[1.08] md:text-[2.1rem]">
                         {product.name}
                       </span>
                     </span>
                     <ArrowUpRight
                       size={26}
                       strokeWidth={1.6}
-                      className="mt-1 shrink-0 -translate-x-2 text-[#e87722] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                      className="mt-1 shrink-0 translate-x-0 text-[#e87722] opacity-100 transition-all duration-300 md:-translate-x-2 md:opacity-0 md:group-hover:translate-x-0 md:group-hover:opacity-100"
                     />
                   </Link>
                 </motion.div>

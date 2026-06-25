@@ -10,7 +10,7 @@ const ContactHero: React.FC = () => {
   const tMenu = useTranslations("Menu");
 
   return (
-    <section className="relative flex min-h-[88vh] flex-col justify-between overflow-hidden bg-[#111] pb-12 pt-32 text-white md:pt-36">
+    <section className="relative flex min-h-[88svh] flex-col justify-between overflow-hidden bg-[#111] pb-12 pt-28 text-white md:pt-36">
       {/* Faint blueprint guide lines + soft orange glow */}
       <div
         aria-hidden
@@ -43,25 +43,25 @@ const ContactHero: React.FC = () => {
 
       {/* Headline + direct contact */}
       <div className="wrapper relative z-10">
-        <h1 className="max-w-[16ch] text-[2.8rem] font-black uppercase leading-[0.92] tracking-tight md:text-[5rem] xl:text-[6rem]">
+        <h1 className="max-w-[16ch] text-[2.1rem] font-black uppercase leading-[0.95] tracking-tight sm:text-[2.8rem] sm:leading-[0.92] md:text-[5rem] xl:text-[6rem]">
           {t("contact.heroTitle")}
         </h1>
 
-        <div className="mt-12 grid items-end gap-8 lg:grid-cols-12">
-          <p className="text-[1.05rem] leading-relaxed text-white/55 lg:col-span-5 lg:max-w-[42ch]">
+        <div className="mt-10 grid items-end gap-8 sm:mt-12 lg:grid-cols-12">
+          <p className="text-[0.98rem] leading-relaxed text-white/55 sm:text-[1.05rem] lg:col-span-5 lg:max-w-[42ch]">
             {t("mainSubtitle")}
           </p>
 
           <div className="flex flex-col gap-2 lg:col-span-6 lg:col-start-7 lg:items-end">
             <a
               href="mailto:office@tehnoplast.co.rs"
-              className="text-[1.5rem] font-black tracking-tight transition-colors duration-200 hover:text-[#e87722] md:text-[2.4rem]"
+              className="break-words text-[1.2rem] font-black tracking-tight transition-colors duration-200 hover:text-[#e87722] sm:text-[1.5rem] md:text-[2.4rem]"
             >
               office@tehnoplast.co.rs
             </a>
             <a
               href="tel:+381604665590"
-              className="text-[1.5rem] font-black tracking-tight text-white/70 transition-colors duration-200 hover:text-[#e87722] md:text-[2.4rem]"
+              className="text-[1.2rem] font-black tracking-tight text-white/70 transition-colors duration-200 hover:text-[#e87722] sm:text-[1.5rem] md:text-[2.4rem]"
             >
               +381 60 466 5590
             </a>

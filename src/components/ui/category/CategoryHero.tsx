@@ -19,10 +19,10 @@ const CategoryHero: React.FC<CategoryHeroProps> = ({ namespace, image }) => {
   const home = pages[0]?.name ?? "Početna";
 
   return (
-    <section className="bg-[#111] pb-16 pt-32 text-white md:pt-36">
+    <section className="bg-[#111] pb-16 pt-28 text-white md:pt-36">
       <div className="wrapper">
         {/* Breadcrumb */}
-        <nav className="mb-10 flex flex-wrap items-center gap-2 text-[0.7rem] font-bold uppercase tracking-[0.22em] text-white/40">
+        <nav className="mb-8 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[0.58rem] font-bold uppercase tracking-[0.16em] text-white/40 sm:mb-10 sm:gap-2 sm:text-[0.7rem] sm:tracking-[0.22em]">
           <Link href="/" className="transition-colors duration-200 hover:text-white">
             {home}
           </Link>
@@ -42,27 +42,27 @@ const CategoryHero: React.FC<CategoryHeroProps> = ({ namespace, image }) => {
           {t("eyebrow")}
         </span>
 
-        <h1 className="max-w-[18ch] text-[2.8rem] font-black uppercase leading-[0.92] tracking-tight md:text-[5rem] xl:text-[6rem]">
+        <h1 className="max-w-[18ch] text-[2.1rem] font-black uppercase leading-[0.95] tracking-tight sm:text-[2.8rem] sm:leading-[0.92] md:text-[5rem] xl:text-[6rem]">
           {t("title")}
         </h1>
 
-        <p className="mt-8 max-w-[62ch] text-[1.05rem] leading-relaxed text-white/55">
+        <p className="mt-6 max-w-[62ch] text-[0.98rem] leading-relaxed text-white/55 sm:mt-8 sm:text-[1.05rem]">
           {t("subtitle")}
         </p>
 
-        <div className="mt-14">
+        <div className="mt-10 sm:mt-14">
           {image ? (
             <img
               src={image}
               alt={t("title")}
               loading="lazy"
-              className="aspect-[21/9] w-full object-cover"
+              className="aspect-video w-full object-cover sm:aspect-[21/9]"
             />
           ) : (
             <ImagePlaceholder
               label={t("image")}
               theme="dark"
-              className="aspect-[21/9] w-full"
+              className="aspect-video w-full sm:aspect-[21/9]"
             />
           )}
         </div>

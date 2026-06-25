@@ -10,7 +10,7 @@ const AboutHero: React.FC = () => {
   const tHome = useTranslations("Home");
 
   return (
-    <section className="relative flex min-h-screen flex-col justify-between overflow-hidden bg-[#111] pb-12 pt-32 text-white md:pt-36">
+    <section className="relative flex min-h-svh flex-col justify-between overflow-hidden bg-[#111] pb-12 pt-28 text-white md:pt-36">
       {/* Ambient production footage */}
       <video
         autoPlay
@@ -49,18 +49,18 @@ const AboutHero: React.FC = () => {
 
       {/* Headline */}
       <div className="wrapper relative z-10">
-        <h1 className="max-w-[20ch] text-[2.6rem] font-black uppercase leading-[0.95] tracking-tight md:text-[4.6rem] xl:text-[5.6rem]">
+        <h1 className="max-w-[20ch] text-[2.1rem] font-black uppercase leading-[0.95] tracking-tight sm:text-[2.6rem] md:text-[4.6rem] xl:text-[5.6rem]">
           {t("about.heroTitle")}
         </h1>
 
         <div className="mt-10 grid items-end gap-8 lg:grid-cols-12">
-          <p className="text-[1.05rem] leading-relaxed text-white/55 lg:col-span-6 lg:max-w-[46ch]">
+          <p className="text-[0.98rem] leading-relaxed text-white/55 sm:text-[1.05rem] lg:col-span-6 lg:max-w-[46ch]">
             {t("mainSubtitle")}
           </p>
           <div className="flex lg:col-span-6 lg:justify-end">
             <Link
               href="/kontakt"
-              className="group inline-flex items-center justify-center gap-3 bg-[#e87722] px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-200 hover:bg-[#ff8a2e]"
+              className="group inline-flex w-full items-center justify-center gap-3 bg-[#e87722] px-8 py-5 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-white transition-colors duration-200 hover:bg-[#ff8a2e] sm:w-auto"
             >
               {tHome("hero.ctaSecondary")}
               <ArrowRight

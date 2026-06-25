@@ -64,7 +64,7 @@ const HeroStats: React.FC<HeroStatsProps> = ({ stats }) => {
               i === 0 ? "md:border-l-0" : ""
             } ${i >= 2 ? "border-t md:border-t-0" : ""} ${i % 2 === 1 ? "pl-5 md:pl-7" : "md:pl-7"}`}
           >
-            <div className="text-[2.4rem] font-black leading-none tracking-tight tabular-nums md:text-[3.4rem]">
+            <div className="text-[1.9rem] font-black leading-none tracking-tight tabular-nums sm:text-[2.4rem] md:text-[3.4rem]">
               {stat.text ? (
                 <span className="uppercase">
                   <span className="text-[#e87722]">{firstWord}</span>
