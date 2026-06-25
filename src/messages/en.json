@@ -532,6 +532,15 @@
     ]
   },
 
+  "NotFound": {
+    "eyebrow": "Error — 404",
+    "code": "404",
+    "title": "Page not found",
+    "text": "The page you are looking for doesn't exist, has been moved or removed. Head back home or explore our categories.",
+    "home": "Back to home",
+    "categories": "View products"
+  },
+
   "Menu": {
     "products": [
       {

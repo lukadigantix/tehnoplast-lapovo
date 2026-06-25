@@ -1138,6 +1138,15 @@
     ]
   },
 
+  "NotFound": {
+    "eyebrow": "Fehler — 404",
+    "code": "404",
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht, wurde verschoben oder entfernt. Kehren Sie zur Startseite zurück oder entdecken Sie unsere Kategorien.",
+    "home": "Zurück zur Startseite",
+    "categories": "Produkte ansehen"
+  },
+
   "Menu": {
     "products": [
       {

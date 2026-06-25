@@ -1127,6 +1127,15 @@
     ]
   },
 
+  "NotFound": {
+    "eyebrow": "Greška — 404",
+    "code": "404",
+    "title": "Stranica nije pronađena",
+    "text": "Stranica koju tražite ne postoji, premeštena je ili je uklonjena. Vratite se na početnu ili istražite naše kategorije.",
+    "home": "Nazad na početnu",
+    "categories": "Pogledaj proizvode"
+  },
+
   "Menu": {
     "products": [
       {

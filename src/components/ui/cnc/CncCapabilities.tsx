@@ -3,7 +3,15 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import ImagePlaceholder from "../category/ImagePlaceholder";
+
+// Photos indexed to the subcategory order: Bravarski Radovi, Fiber Lasersko
+// Sečenje, Lasersko Zavarivanje, CNC Savijanje Lima.
+const CAP_IMAGES = [
+  "/images/cnc/bravarija.webp",
+  "/images/cnc/fiber.webp",
+  "/images/cnc/lasersko.webp",
+  "/images/cnc/savijanje.webp",
+];
 
 interface Spec {
   label: string;
@@ -53,10 +61,11 @@ const CncCapabilities: React.FC = () => {
                 className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16"
               >
                 <div className={right ? "lg:order-2" : ""}>
-                  <ImagePlaceholder
-                    label={cap.media === "video" ? t("video") : t("image")}
-                    theme="dark"
-                    className="aspect-video w-full"
+                  <img
+                    src={CAP_IMAGES[i]}
+                    alt={cap.name}
+                    loading="lazy"
+                    className="aspect-video w-full object-cover"
                   />
                 </div>
 

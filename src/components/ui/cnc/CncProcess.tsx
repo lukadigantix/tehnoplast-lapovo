@@ -3,7 +3,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { motion, Variants } from "framer-motion";
-import ImagePlaceholder from "../category/ImagePlaceholder";
 
 interface ProcessStep {
   title: string;
@@ -55,10 +54,11 @@ const CncProcess: React.FC = () => {
         >
           {steps.map((step, i) => (
             <motion.div key={i} variants={cellVariants} className="min-w-0">
-              <ImagePlaceholder
-                label={t("image")}
-                theme="light"
-                className="mb-6 aspect-[4/3] w-full"
+              <img
+                src={`/images/cnc/${String(i + 1).padStart(2, "0")}.webp`}
+                alt={step.title}
+                loading="lazy"
+                className="mb-6 aspect-[4/3] w-full object-cover"
               />
               <div className="flex items-center gap-4">
                 <span className="text-[1.1rem] font-black tabular-nums text-[#e87722]">

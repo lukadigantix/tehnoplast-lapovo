@@ -1,12 +1,11 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/navigation";
-import ImagePlaceholder from "../category/ImagePlaceholder";
 
 type LinkItem = { name: string; link: string };
 
 // CNC hero — heavier, more cinematic: breadcrumb + huge title, then a large
-// full-width VIDEO placeholder as the centrepiece.
+// full-width image as the centrepiece.
 const CncHero: React.FC = () => {
   const t = useTranslations("Cnc");
   const tMenu = useTranslations("Menu");
@@ -58,12 +57,12 @@ const CncHero: React.FC = () => {
           {t("subtitle")}
         </p>
 
-        {/* Hero video placeholder */}
+        {/* Hero image */}
         <div className="mt-16">
-          <ImagePlaceholder
-            label={t("video")}
-            theme="dark"
-            className="aspect-video w-full md:aspect-[21/9]"
+          <img
+            src="/images/cnc/cnc-hero.webp"
+            alt={t("title")}
+            className="aspect-video w-full object-cover md:aspect-[21/9]"
           />
         </div>
       </div>
