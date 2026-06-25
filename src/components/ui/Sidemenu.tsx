@@ -84,141 +84,144 @@ const Sidemenu: React.FC<SidemenuProps> = ({ open, setOpen }) => {
           initial="hidden"
           animate="show"
           exit="exit"
-          className="fixed right-0 top-0 z-[100] flex h-screen w-full flex-col bg-[#111] text-white md:w-[680px] lg:w-[820px]"
+          className="fixed right-0 top-0 z-[100] h-svh w-full overflow-y-auto bg-[#111] text-white md:h-screen md:w-[680px] lg:w-[820px]"
         >
-          {/* Header — kept clear on the left for the fixed logo (over the
-              full-width panel on mobile) and on the right for the Nav close
-              (X) button. The "MENI" eyebrow is hidden on mobile to avoid
-              colliding with the logo. */}
-          <motion.div
-            variants={itemVariants}
-            className="flex h-[72px] shrink-0 items-center border-b border-white/10 px-8 md:h-[110px] md:px-12"
-          >
-            <span className="hidden items-center gap-3 text-[0.7rem] font-bold uppercase tracking-[0.28em] text-white/40 md:flex">
-              <span className="h-px w-8 bg-[#e87722]" />
-              {t("meni")}
-            </span>
-          </motion.div>
-
-          {/* Body */}
-          <div className="flex-1 overflow-y-auto px-8 py-9 md:px-12">
-            {/* Pages — secondary nav */}
-            <motion.div variants={itemVariants} className="mb-10">
-              <p className="mb-4 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30">
-                {t("stranice")}
-              </p>
-              <div className="grid grid-cols-2 gap-x-4 gap-y-3.5 sm:flex sm:flex-wrap sm:items-center sm:gap-x-7 sm:gap-y-2">
-                {pages.map((page, i) => (
-                  <Link
-                    key={i}
-                    href={page.link}
-                    onClick={() => setOpen(false)}
-                    className="text-[0.95rem] font-bold uppercase tracking-wide text-white/70 transition-colors duration-200 hover:text-[#e87722]"
-                  >
-                    {page.name}
-                  </Link>
-                ))}
-                <a
-                  href="/katalog.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setOpen(false)}
-                  className="inline-flex items-center gap-1.5 text-[0.95rem] font-bold uppercase tracking-wide text-white/70 transition-colors duration-200 hover:text-[#e87722]"
-                >
-                  {t("katalog")}
-                  <span className="text-[0.6rem] tracking-[0.2em] text-white/30">
-                    PDF
-                  </span>
-                </a>
-              </div>
+          {/* Whole panel scrolls; min-h-full keeps the footer at the bottom of
+              the flow so it's always reachable (never pinned off-screen). */}
+          <div className="flex min-h-full flex-col">
+            {/* Header — kept clear on the left for the fixed logo and on the
+                right for the Nav close (X). "MENI" shows on desktop only. */}
+            <motion.div
+              variants={itemVariants}
+              className="flex h-[64px] shrink-0 items-center px-7 sm:h-[72px] sm:px-8 md:h-[110px] md:border-b md:border-white/10 md:px-12"
+            >
+              <span className="hidden items-center gap-3 text-[0.7rem] font-bold uppercase tracking-[0.28em] text-white/40 md:flex">
+                <span className="h-px w-8 bg-[#e87722]" />
+                {t("meni")}
+              </span>
             </motion.div>
 
-            {/* Products — featured list */}
-            <motion.p
-              variants={itemVariants}
-              className="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30"
-            >
-              {t("proizvodi")}
-            </motion.p>
-            <nav>
-              {products.map((product, i) => (
-                <motion.div key={i} variants={itemVariants}>
-                  <Link
-                    href={product.link}
-                    onClick={() => setOpen(false)}
-                    className={`group flex items-start justify-between gap-4 py-4 sm:py-5 md:py-7 ${
-                      i === 0 ? "border-t border-white/10 " : ""
-                    }${
-                      i < products.length - 1 ? "border-b border-white/10" : ""
-                    }`}
-                  >
-                    <span className="flex min-w-0 items-start gap-3 pr-2 sm:gap-4">
-                      <span className="mt-1.5 text-[0.7rem] font-black tabular-nums text-white/25 transition-colors duration-200 group-hover:text-[#e87722] sm:mt-2 md:text-[0.8rem]">
-                        {String(i + 1).padStart(2, "0")}
-                      </span>
-                      <span className="min-w-0 break-words pr-[0.12em] text-[1.3rem] font-black uppercase leading-[1.1] tracking-tight transition-colors duration-300 group-hover:text-[#e87722] sm:text-[1.6rem] sm:leading-[1.08] md:text-[2.1rem]">
-                        {product.name}
-                      </span>
-                    </span>
-                    <ArrowUpRight
-                      size={26}
-                      strokeWidth={1.6}
-                      className="mt-1 shrink-0 translate-x-0 text-[#e87722] opacity-100 transition-all duration-300 md:-translate-x-2 md:opacity-0 md:group-hover:translate-x-0 md:group-hover:opacity-100"
-                    />
-                  </Link>
-                </motion.div>
-              ))}
-            </nav>
-          </div>
-
-          {/* Footer — language + contact */}
-          <motion.div
-            variants={itemVariants}
-            className="shrink-0 border-t border-white/10 px-8 py-7 md:px-12"
-          >
-            <div className="flex flex-col gap-7 sm:flex-row sm:items-end sm:justify-between">
-              {/* Language switcher */}
-              <div>
-                <p className="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30">
-                  {t("jezik")}
-                </p>
-                <div className="flex items-center gap-2">
-                  {LOCALES.map((code) => (
-                    <button
-                      key={code}
-                      onClick={() => handleLocaleChange(code)}
-                      className={`text-[0.85rem] font-black uppercase tracking-widest transition-colors duration-200 ${
-                        code === locale
-                          ? "text-[#e87722]"
-                          : "text-white/40 hover:text-white"
+            {/* Main — centered on mobile, editorial list on desktop */}
+            <div className="flex flex-1 flex-col justify-center gap-10 px-7 py-10 text-center sm:px-8 md:justify-start md:gap-0 md:px-12 md:py-9 md:text-left">
+              {/* Products — primary */}
+              <nav className="flex flex-col">
+                <motion.p
+                  variants={itemVariants}
+                  className="mb-5 hidden text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30 md:block"
+                >
+                  {t("proizvodi")}
+                </motion.p>
+                {products.map((product, i) => (
+                  <motion.div key={i} variants={itemVariants}>
+                    <Link
+                      href={product.link}
+                      onClick={() => setOpen(false)}
+                      className={`group flex items-center justify-center gap-4 py-3 md:justify-between md:py-7 ${
+                        i === 0 ? "md:border-t md:border-white/10 " : ""
+                      }${
+                        i < products.length - 1
+                          ? "md:border-b md:border-white/10"
+                          : ""
                       }`}
                     >
-                      {code}
-                    </button>
+                      <span className="flex min-w-0 items-baseline justify-center gap-4 md:items-start">
+                        <span className="hidden text-[0.8rem] font-black tabular-nums text-white/25 transition-colors duration-200 group-hover:text-[#e87722] md:mt-2 md:inline">
+                          {String(i + 1).padStart(2, "0")}
+                        </span>
+                        <span className="min-w-0 break-words pr-[0.12em] text-[1.5rem] font-black uppercase leading-[1.1] tracking-tight transition-colors duration-300 group-hover:text-[#e87722] md:text-[2.1rem]">
+                          {product.name}
+                        </span>
+                      </span>
+                      <ArrowUpRight
+                        strokeWidth={1.6}
+                        className="hidden h-[26px] w-[26px] shrink-0 -translate-x-2 text-[#e87722] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 md:block"
+                      />
+                    </Link>
+                  </motion.div>
+                ))}
+              </nav>
+
+              {/* Pages + catalog — secondary */}
+              <motion.div variants={itemVariants} className="md:mt-12">
+                <p className="mb-5 hidden text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30 md:block">
+                  {t("stranice")}
+                </p>
+                <div className="flex flex-col items-center gap-3.5 md:flex-row md:flex-wrap md:items-center md:gap-x-7 md:gap-y-2">
+                  {pages.map((page, i) => (
+                    <Link
+                      key={i}
+                      href={page.link}
+                      onClick={() => setOpen(false)}
+                      className="text-[1rem] font-bold uppercase tracking-wide text-white/70 transition-colors duration-200 hover:text-[#e87722] md:text-[0.95rem]"
+                    >
+                      {page.name}
+                    </Link>
                   ))}
+                  <a
+                    href="/katalog.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setOpen(false)}
+                    className="inline-flex items-center gap-1.5 text-[1rem] font-bold uppercase tracking-wide text-white/70 transition-colors duration-200 hover:text-[#e87722] md:text-[0.95rem]"
+                  >
+                    {t("katalog")}
+                    <span className="text-[0.6rem] tracking-[0.2em] text-white/30">
+                      PDF
+                    </span>
+                  </a>
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Footer — language + contact */}
+            <motion.div
+              variants={itemVariants}
+              className="shrink-0 border-t border-white/10 px-7 py-6 text-center sm:px-8 md:px-12 md:py-7 md:text-left"
+            >
+              <div className="flex flex-col items-center gap-5 md:flex-row md:items-end md:justify-between md:gap-7">
+                {/* Language switcher */}
+                <div>
+                  <p className="mb-2.5 hidden text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30 md:block">
+                    {t("jezik")}
+                  </p>
+                  <div className="flex items-center justify-center gap-3 md:gap-2">
+                    {LOCALES.map((code) => (
+                      <button
+                        key={code}
+                        onClick={() => handleLocaleChange(code)}
+                        className={`text-[0.9rem] font-black uppercase tracking-widest transition-colors duration-200 md:text-[0.85rem] ${
+                          code === locale
+                            ? "text-[#e87722]"
+                            : "text-white/40 hover:text-white"
+                        }`}
+                      >
+                        {code}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Contact */}
+                <div className="md:text-right">
+                  <p className="mb-2 hidden text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30 md:block">
+                    {t("kontakt")}
+                  </p>
+                  <a
+                    href="mailto:office@tehnoplast.co.rs"
+                    className="block break-words text-[0.95rem] font-bold text-white transition-colors duration-200 hover:text-[#e87722]"
+                  >
+                    office@tehnoplast.co.rs
+                  </a>
+                  <a
+                    href="tel:+381604665590"
+                    className="block text-[0.95rem] font-bold text-white/60 transition-colors duration-200 hover:text-[#e87722]"
+                  >
+                    +381 60 466 5590
+                  </a>
                 </div>
               </div>
-
-              {/* Contact */}
-              <div className="sm:text-right">
-                <p className="mb-3 text-[0.65rem] font-bold uppercase tracking-[0.28em] text-white/30">
-                  {t("kontakt")}
-                </p>
-                <a
-                  href="mailto:office@tehnoplast.co.rs"
-                  className="block text-[0.95rem] font-bold text-white transition-colors duration-200 hover:text-[#e87722]"
-                >
-                  office@tehnoplast.co.rs
-                </a>
-                <a
-                  href="tel:+381604665590"
-                  className="block text-[0.95rem] font-bold text-white/60 transition-colors duration-200 hover:text-[#e87722]"
-                >
-                  +381 60 466 5590
-                </a>
-              </div>
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </motion.aside>
       )}
     </AnimatePresence>
