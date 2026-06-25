@@ -1,7 +1,7 @@
-import {createNavigation} from 'next-intl/navigation'
-import {locales, /* .. */} from './config'
+import { createNavigation } from "next-intl/navigation";
+import { routing } from "./i18n/routing";
 
-export const {Link, redirect, usePathname, useRouter} = createNavigation({locales, /* ... */})
-
-// ovaj code se koristi kada imamo linkove koji salju na drugacije stranice. Kako bi se zadrzao izabrani jezik pri promeni linka
-// zapravo createNavigation samo dodaje prefix izabranog jezika na linkove
+// Locale-aware navigation helpers — Link/redirect/etc. keep the active locale
+// prefix on internal navigation.
+export const { Link, redirect, usePathname, useRouter, getPathname } =
+  createNavigation(routing);

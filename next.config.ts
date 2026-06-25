@@ -1,7 +1,9 @@
 
 import createNextIntlPlugin from "next-intl/plugin";
 
-const withNextPlugin = createNextIntlPlugin()
+// Point the plugin at the existing request config (next-intl v4 otherwise
+// expects ./src/i18n/request.ts).
+const withNextPlugin = createNextIntlPlugin("./src/i18n.ts")
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
