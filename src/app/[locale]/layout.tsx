@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
-import { getMessages } from "next-intl/server";
+import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { ZoomProvider } from "@/context/ZoomContext";
 import PageTransition from "@/components/ui/PageTransition";
@@ -21,12 +21,13 @@ export const metadata: Metadata = {
 export default async function RootLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
+  const locale = await getLocale();
   const messages = await getMessages();
 
   return (
     <NextIntlClientProvider messages={messages}>
       <ZoomProvider>
-        <html lang="en">
+        <html lang={locale}>
           <body className={`${latoFont.variable} antialiased`}>
             <PageTransition />
             {children}
@@ -34,10 +35,5 @@ export default async function RootLayout({
         </html>
       </ZoomProvider>
     </NextIntlClientProvider>
-  //   <ZoomProvider>
-  //   <html lang="en">
-  //     <body className={`${latoFont.variable} antialiased`}>{children}</body>
-  //   </html>
-  // </ZoomProvider>
   );
 }
