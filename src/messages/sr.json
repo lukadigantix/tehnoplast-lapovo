@@ -24,7 +24,7 @@
       {
         "title": "PVC i ALU Stolarija",
         "description": "Toplina doma i energetska efikasnost u svakom detalju.",
-        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Klizni Sistemi"]
+        "subcategories": ["Decco 83 PVC", "Decco 71 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Klizni Sistemi"]
       },
       {
         "title": "Pergole i Stakleni Sistemi",
@@ -634,28 +634,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Regionalni centar u Požarevcu omogućava bržu i direktniju komunikaciju sa klijentima u istočnoj Srbiji. Fokusirani smo na pružanje kvalitetne korisničke podrške, prezentaciju proizvoda i lokalnu logistiku.",
-        "items": [
-          {
-            "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Office",
-            "list": ["Nemanjina, 12000 Požarevac, Srbija"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Diesseldorf, Germany",
         "link": "",
         "description": "Naše prisustvo u Nemačkoj omogućava direktnu saradnju sa klijentima širom EU tržišta. Kroz Krefeld i Diesseldorf operacije obezbeđujemo bržu isporuku, tehničku podršku i lokalnu dostupnost naših rešenja.",
         "items": [
           {
             "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Office",
@@ -826,28 +811,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Regionalni centar u Požarevcu omogućava bržu i direktniju komunikaciju sa klijentima u istočnoj Srbiji. Fokusirani smo na pružanje kvalitetne korisničke podrške, prezentaciju proizvoda i lokalnu logistiku.",
-        "items": [
-          {
-            "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Office",
-            "list": ["Nemanjina, 12000 Požarevac, Srbija"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Diesseldorf, Germany",
         "link": "",
         "description": "Naše prisustvo u Nemačkoj omogućava direktnu saradnju sa klijentima širom EU tržišta. Kroz Krefeld i Diesseldorf operacije obezbeđujemo bržu isporuku, tehničku podršku i lokalnu dostupnost naših rešenja.",
         "items": [
           {
             "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Office",
@@ -876,6 +846,15 @@
           { "label": "Zaptivke", "value": "3" },
           { "label": "Uw koeficijent", "value": "do 0,76 W/m²K" },
           { "label": "Zvučna izolacija", "value": "do 47 dB" }
+        ],
+        "features": ["100% reciklabilni profili", "Ekološki prihvatljivo", "Moderan dizajn", "Širok izbor boja i dekora"]
+      },
+      {
+        "name": "Decco 71 PVC",
+        "kind": "PVC Stolarija",
+        "specs": [
+          { "label": "Ugradna dubina", "value": "71 mm" },
+          { "label": "Komore", "value": "5" }
         ],
         "features": ["100% reciklabilni profili", "Ekološki prihvatljivo", "Moderan dizajn", "Širok izbor boja i dekora"]
       },
@@ -1120,7 +1099,7 @@
           { "label": "Presa", "value": "3200 mm" },
           { "label": "Čelik", "value": "do 10 mm" },
           { "label": "Inox", "value": "do 6 mm" },
-          { "label": "Aluminijum", "value": "do 8 mm" }
+          { "label": "Aluminijum", "value": "do 12 mm" }
         ],
         "features": ["Visoka preciznost i ponovljivost", "Kompleksni i zahtevni oblici"]
       }

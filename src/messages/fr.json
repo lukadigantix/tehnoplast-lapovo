@@ -24,7 +24,7 @@
       {
         "title": "Menuiseries PVC et ALU",
         "description": "La chaleur du foyer et l'efficacité énergétique dans chaque détail.",
-        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "Systèmes coulissants HST"]
+        "subcategories": ["Decco 83 PVC", "Decco 71 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "Systèmes coulissants HST"]
       },
       {
         "title": "Pergolas et systèmes vitrés",
@@ -638,28 +638,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Le centre régional de Požarevac permet une communication plus rapide et directe avec les clients de l’Est de la Serbie. Nous mettons l’accent sur l’assistance client, la présentation des produits et la logistique locale.",
-        "items": [
-          {
-            "title": "Contact",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Bureau",
-            "list": ["Nemanjina, 12000 Požarevac, Serbie"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Düsseldorf, Allemagne",
         "link": "",
         "description": "Notre présence en Allemagne permet une collaboration directe avec les clients sur le marché européen. Grâce à nos opérations à Krefeld et Düsseldorf, nous assurons des livraisons rapides, un support technique et un accès local à nos solutions.",
         "items": [
           {
             "title": "Contact",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Bureau",
@@ -829,28 +814,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Le centre régional de Požarevac permet une communication plus rapide et directe avec les clients de l'est de la Serbie. Nous sommes axés sur le support client de qualité, la présentation des produits et la logistique locale.",
-        "items": [
-          {
-            "title": "Contact",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Bureau",
-            "list": ["Nemanjina, 12000 Požarevac, Serbie"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Düsseldorf, Allemagne",
         "link": "",
         "description": "Notre présence en Allemagne permet une collaboration directe avec les clients sur le marché de l'UE. Grâce à nos opérations à Krefeld et Düsseldorf, nous assurons des livraisons rapides, une assistance technique et un accès local à nos solutions.",
         "items": [
           {
             "title": "Contact",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Bureau",
@@ -879,6 +849,15 @@
           { "label": "Joints", "value": "3" },
           { "label": "Coefficient Uw", "value": "jusqu'à 0,76 W/m²K" },
           { "label": "Isolation acoustique", "value": "jusqu'à 47 dB" }
+        ],
+        "features": ["Profilés 100% recyclables", "Écologique", "Design moderne", "Large choix de couleurs et décors"]
+      },
+      {
+        "name": "Decco 71 PVC",
+        "kind": "Système PVC",
+        "specs": [
+          { "label": "Profondeur d'installation", "value": "71 mm" },
+          { "label": "Chambres", "value": "5" }
         ],
         "features": ["Profilés 100% recyclables", "Écologique", "Design moderne", "Large choix de couleurs et décors"]
       },
@@ -1123,7 +1102,7 @@
           { "label": "Presse", "value": "3200 mm" },
           { "label": "Acier", "value": "jusqu'à 10 mm" },
           { "label": "Inox", "value": "jusqu'à 6 mm" },
-          { "label": "Aluminium", "value": "jusqu'à 8 mm" }
+          { "label": "Aluminium", "value": "jusqu'à 12 mm" }
         ],
         "features": ["Haute précision et répétabilité", "Formes complexes et exigeantes"]
       }

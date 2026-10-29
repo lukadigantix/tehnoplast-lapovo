@@ -7,8 +7,8 @@ import type { Map as LeafletMap } from "leaflet";
 const LAT = 44.1846;
 const LON = 21.0976;
 
-// Full-bleed dark map of the HQ. Built on Leaflet + CARTO "dark" OpenStreetMap
-// tiles so the map style matches the site (swap the tile URL to restyle). Leaflet
+// Full-bleed dark map of the HQ. Built on Leaflet + OpenStreetMap tiles darkened
+// with a CSS filter so the map style matches the site. Leaflet
 // is imported dynamically inside the effect because it touches `window` on load
 // and would otherwise break SSR.
 const ContactMap: React.FC = () => {
@@ -36,15 +36,14 @@ const ContactMap: React.FC = () => {
       // required OpenStreetMap / CARTO credit).
       map.attributionControl.setPrefix(false);
 
-      L.tileLayer(
-        "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-        {
-          attribution:
-            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-          subdomains: "abcd",
-          maxZoom: 20,
-        }
-      ).addTo(map);
+      // OpenStreetMap pločice (bez API ključa); tamni izgled daje CSS filter
+      // na sloju (klasa .osm-dark u globals.css). CARTO je uveo obavezan ključ.
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 19,
+        className: "osm-dark",
+      }).addTo(map);
 
       // Custom orange marker (a glowing dot) — avoids Leaflet's default icon assets.
       const icon = L.divIcon({

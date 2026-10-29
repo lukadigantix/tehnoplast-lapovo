@@ -24,7 +24,7 @@
       {
         "title": "PVC- und ALU-Fenster und -Türen",
         "description": "Wärme für Ihr Zuhause und Energieeffizienz bis ins Detail.",
-        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Schiebesysteme"]
+        "subcategories": ["Decco 83 PVC", "Decco 71 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Schiebesysteme"]
       },
       {
         "title": "Pergolen und Glassysteme",
@@ -645,28 +645,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Das regionale Zentrum in Požarevac ermöglicht eine schnellere und direktere Kommunikation mit Kunden in Ostserbien. Wir konzentrieren uns auf Kundenservice, Produktpräsentation und lokale Logistik.",
-        "items": [
-          {
-            "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Büro",
-            "list": ["Nemanjina, 12000 Požarevac, Serbien"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Düsseldorf, Deutschland",
         "link": "",
         "description": "Unsere Präsenz in Deutschland ermöglicht eine direkte Zusammenarbeit mit Kunden auf dem EU-Markt. Über unsere Standorte in Krefeld und Düsseldorf bieten wir schnellere Lieferung, technischen Support und lokalen Zugang zu unseren Lösungen.",
         "items": [
           {
             "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Büro",
@@ -837,28 +822,13 @@
         ]
       },
       {
-        "category": "Tehnoplast Požarevac",
-        "link": "",
-        "description": "Das regionale Zentrum in Požarevac ermöglicht eine schnellere und direktere Kommunikation mit Kunden in Ostserbien. Wir konzentrieren uns auf Kundenservice, Produktpräsentation und lokale Logistik.",
-        "items": [
-          {
-            "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
-          },
-          {
-            "title": "Büro",
-            "list": ["Nemanjina, 12000 Požarevac, Serbien"]
-          }
-        ]
-      },
-      {
         "category": "Krefeld Düsseldorf, Deutschland",
         "link": "",
         "description": "Unsere Präsenz in Deutschland ermöglicht eine direkte Zusammenarbeit mit Kunden auf dem EU-Markt. Über unsere Standorte in Krefeld und Düsseldorf bieten wir schnellere Lieferung, technischen Support und lokalen Zugang zu unseren Lösungen.",
         "items": [
           {
             "title": "Kontakt",
-            "list": ["+381 62 159 9173", "pozarevac@tehnoplast.co.rs"]
+            "list": ["+381 62 159 9173", "krefeld@tehnoplast.co.rs"]
           },
           {
             "title": "Büro",
@@ -887,6 +857,15 @@
           { "label": "Dichtungen", "value": "3" },
           { "label": "Uw-Wert", "value": "bis 0,76 W/m²K" },
           { "label": "Schallschutz", "value": "bis 47 dB" }
+        ],
+        "features": ["100% recycelbare Profile", "Umweltfreundlich", "Modernes Design", "Große Auswahl an Farben und Dekoren"]
+      },
+      {
+        "name": "Decco 71 PVC",
+        "kind": "PVC-System",
+        "specs": [
+          { "label": "Bautiefe", "value": "71 mm" },
+          { "label": "Kammern", "value": "5" }
         ],
         "features": ["100% recycelbare Profile", "Umweltfreundlich", "Modernes Design", "Große Auswahl an Farben und Dekoren"]
       },
@@ -1131,7 +1110,7 @@
           { "label": "Presse", "value": "3200 mm" },
           { "label": "Stahl", "value": "bis 10 mm" },
           { "label": "Edelstahl", "value": "bis 6 mm" },
-          { "label": "Aluminium", "value": "bis 8 mm" }
+          { "label": "Aluminium", "value": "bis 12 mm" }
         ],
         "features": ["Hohe Präzision und Wiederholgenauigkeit", "Komplexe und anspruchsvolle Formen"]
       }

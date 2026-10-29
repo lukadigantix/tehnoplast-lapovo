@@ -114,3 +114,7 @@ html.lenis body {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
+/* Mapa na Kontaktu: OSM pločice zatamnjene da se uklope u tamni dizajn */
+.osm-dark {
+  filter: invert(1) hue-rotate(180deg) brightness(0.82) contrast(0.92) saturate(0.35);
+}

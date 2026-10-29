@@ -24,7 +24,7 @@
       {
         "title": "PVC & ALU Joinery",
         "description": "The warmth of home and energy efficiency in every detail.",
-        "subcategories": ["Decco 83 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Sliding Systems"]
+        "subcategories": ["Decco 83 PVC", "Decco 71 PVC", "Schüco LIVIng82 PVC", "Elvial W59 SI² ALU", "Schüco AWS 75.SI ALU", "HST Sliding Systems"]
       },
       {
         "title": "Pergolas & Glass Systems",
@@ -285,6 +285,15 @@
         "features": ["100% recyclable profiles", "Eco-friendly", "Modern design", "Wide range of colours and decors"]
       },
       {
+        "name": "Decco 71 PVC",
+        "kind": "PVC system",
+        "specs": [
+          { "label": "Installation depth", "value": "71 mm" },
+          { "label": "Chambers", "value": "5" }
+        ],
+        "features": ["100% recyclable profiles", "Eco-friendly", "Modern design", "Wide range of colours and decors"]
+      },
+      {
         "name": "Schüco LIVIng82 PVC",
         "kind": "PVC system",
         "specs": [
@@ -525,7 +534,7 @@
           { "label": "Press", "value": "3200 mm" },
           { "label": "Steel", "value": "up to 10 mm" },
           { "label": "Stainless steel", "value": "up to 6 mm" },
-          { "label": "Aluminium", "value": "up to 8 mm" }
+          { "label": "Aluminium", "value": "up to 12 mm" }
         ],
         "features": ["High precision and repeatability", "Complex and demanding shapes"]
       }
