@@ -79,7 +79,8 @@ const OfficesGrid: React.FC<OfficesGridProps> = ({
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
-          className="mt-14 grid border-l border-t border-white/12 sm:grid-cols-2 lg:grid-cols-4"
+          // broj kolona prati broj kancelarija (3 = tri kolone preko cele širine, 4 = četiri)
+          className={`mt-14 grid border-l border-t border-white/12 sm:grid-cols-2 ${offices.length === 3 ? "lg:grid-cols-3" : "lg:grid-cols-4"}`}
         >
           {offices.map((office, i) => {
             const contacts = office.items?.[0]?.list ?? [];
