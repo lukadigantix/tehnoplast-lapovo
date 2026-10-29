@@ -46,16 +46,10 @@ const Footer: React.FC = () => {
           +381 69 466 555
         </a>
         <a
-          href="mailto:pozarevac@tehnoplast.co.rs"
+          href="mailto:krefeld@tehnoplast.co.rs"
           className="text-[26px] tracking-[-1px] font-semibold my-3 w-fit no-underline block text-[#e87722] border-b border-[#e8772281]"
         >
-          pozarevac@tehnoplast.co.rs
-        </a>
-        <a
-          href="tel:+381621599173"
-          className="text-[26px] tracking-[-1px] font-semibold my-3 w-fit text-[#393e42] no-underline block"
-        >
-          +381 62 159 9173
+          krefeld@tehnoplast.co.rs
         </a>
 
         {/* Additional info */}
