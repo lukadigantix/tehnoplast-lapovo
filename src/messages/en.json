@@ -288,10 +288,13 @@
         "name": "Decco 71 PVC",
         "kind": "PVC system",
         "specs": [
-          { "label": "Installation depth", "value": "71 mm" },
-          { "label": "Chambers", "value": "5" }
+          { "label": "Installation depth", "value": "70 mm" },
+          { "label": "Glazing", "value": "up to 44 mm" },
+          { "label": "Chambers", "value": "6" },
+          { "label": "Seals", "value": "2" },
+          { "label": "Uw value", "value": "up to 0.86 W/m²K" }
         ],
-        "features": ["100% recyclable profiles", "Eco-friendly", "Modern design", "Wide range of colours and decors"]
+        "features": ["Profile class A and B", "81 mm frame option", "Core: white, caramel, dark brown, anthracite"]
       },
       {
         "name": "Schüco LIVIng82 PVC",

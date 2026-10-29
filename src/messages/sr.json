@@ -853,10 +853,13 @@
         "name": "Decco 71 PVC",
         "kind": "PVC Stolarija",
         "specs": [
-          { "label": "Ugradna dubina", "value": "71 mm" },
-          { "label": "Komore", "value": "5" }
+          { "label": "Ugradna dubina", "value": "70 mm" },
+          { "label": "Staklo", "value": "do 44 mm" },
+          { "label": "Komore", "value": "6" },
+          { "label": "Zaptivke", "value": "2" },
+          { "label": "Uw koeficijent", "value": "do 0,86 W/m²K" }
         ],
-        "features": ["100% reciklabilni profili", "Ekološki prihvatljivo", "Moderan dizajn", "Širok izbor boja i dekora"]
+        "features": ["Klasa profila A i B", "Opcija rama 81 mm", "Jezgro: bela, karamel, tamno braon, antracit"]
       },
       {
         "name": "Schüco LIVIng82 PVC",

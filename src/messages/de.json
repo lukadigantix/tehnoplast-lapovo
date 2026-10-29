@@ -864,10 +864,13 @@
         "name": "Decco 71 PVC",
         "kind": "PVC-System",
         "specs": [
-          { "label": "Bautiefe", "value": "71 mm" },
-          { "label": "Kammern", "value": "5" }
+          { "label": "Bautiefe", "value": "70 mm" },
+          { "label": "Verglasung", "value": "bis 44 mm" },
+          { "label": "Kammern", "value": "6" },
+          { "label": "Dichtungen", "value": "2" },
+          { "label": "Uw-Wert", "value": "bis 0,86 W/m²K" }
         ],
-        "features": ["100% recycelbare Profile", "Umweltfreundlich", "Modernes Design", "Große Auswahl an Farben und Dekoren"]
+        "features": ["Profilklasse A und B", "Rahmen 81 mm optional", "Kern: weiß, karamell, dunkelbraun, anthrazit"]
       },
       {
         "name": "Schüco LIVIng82 PVC",
